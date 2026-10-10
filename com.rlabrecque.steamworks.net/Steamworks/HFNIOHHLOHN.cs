@@ -1,0 +1,41 @@
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace Steamworks
+{
+	// Token: 0x02000061 RID: 97
+	public static class HFNIOHHLOHN
+	{
+		// Token: 0x060006F3 RID: 1779 RVA: 0x0000657C File Offset: 0x0000477C
+		public static bool KDPCLCNENPJ(AppId_t OAEOLFEOPLA, out string BMBAOHEBHDL, ref int GJAEKMLBCKD)
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			IntPtr intPtr = Marshal.AllocHGlobal(GJAEKMLBCKD);
+			bool flag = IPBEAECLPOJ.CFPOIKEGBMD(FJNEGJPDHIC.LGMMPILHNBC(), OAEOLFEOPLA, intPtr, ref GJAEKMLBCKD);
+			BMBAOHEBHDL = (flag ? MBLFNIBGODG.EFIMHBHCPFM(intPtr) : null);
+			Marshal.FreeHGlobal(intPtr);
+			return flag;
+		}
+
+		// Token: 0x060006F4 RID: 1780 RVA: 0x000065B9 File Offset: 0x000047B9
+		public static void OCLOPPNMIPI(AppId_t OAEOLFEOPLA)
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			IPBEAECLPOJ.PFNALAAMNMB(FJNEGJPDHIC.LGMMPILHNBC(), OAEOLFEOPLA);
+		}
+
+		// Token: 0x060006F5 RID: 1781 RVA: 0x000065CB File Offset: 0x000047CB
+		public static void KPBGHEDLNGL(AppId_t OAEOLFEOPLA)
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			IPBEAECLPOJ.FEMCOGBFCMH(FJNEGJPDHIC.LGMMPILHNBC(), OAEOLFEOPLA);
+		}
+
+		// Token: 0x060006F6 RID: 1782 RVA: 0x000065DD File Offset: 0x000047DD
+		public static bool DJKCLKNAPCA(out int FNFKBHCEBDN)
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			return IPBEAECLPOJ.HCOICHGKLOI(FJNEGJPDHIC.LGMMPILHNBC(), out FNFKBHCEBDN);
+		}
+	}
+}

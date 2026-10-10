@@ -1,0 +1,219 @@
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace Steamworks
+{
+	// Token: 0x02000016 RID: 22
+	public class LPGLFOHHJJE
+	{
+		// Token: 0x060001AD RID: 429 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr BABPLFLNEGL(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001AE RID: 430 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr MJAOAJNDANO(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001AF RID: 431 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr GDNGPACFLMB(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B0 RID: 432 RVA: 0x00003A3C File Offset: 0x00001C3C
+		public LPGLFOHHJJE(EDELONALMAM[] NJKOHNBGNBM)
+		{
+			if (NJKOHNBGNBM == null)
+			{
+				return;
+			}
+			int num = Marshal.SizeOf(typeof(EDELONALMAM));
+			this.PMBCCJGMCGD = Marshal.AllocHGlobal(Marshal.SizeOf(typeof(IntPtr)) * NJKOHNBGNBM.Length);
+			this.JKIAAKDANFG = Marshal.AllocHGlobal(num * NJKOHNBGNBM.Length);
+			for (int i = 0; i < NJKOHNBGNBM.Length; i++)
+			{
+				Marshal.StructureToPtr<EDELONALMAM>(NJKOHNBGNBM[i], new IntPtr(this.JKIAAKDANFG.ToInt64() + (long)(i * num)), false);
+			}
+			Marshal.WriteIntPtr(this.PMBCCJGMCGD, this.JKIAAKDANFG);
+		}
+
+		// Token: 0x060001B1 RID: 433 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr NHMHFNOHOJH(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B2 RID: 434 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr GLJLCCILMCD(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B3 RID: 435 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr HIEGGJJJJIM(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B4 RID: 436 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr OIBNALDEHDE(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B5 RID: 437 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr PMAMIEGLKGI(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B6 RID: 438 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr FKPGACFDNFJ(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B7 RID: 439 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr BJBPNDHAHFC(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B8 RID: 440 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr DMLKCGNOMHM(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001B9 RID: 441 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr MLLDEEJPIHJ(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001BA RID: 442 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr LEMPLPBOLAD(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001BB RID: 443 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr NNBKNIOBAHC(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001BC RID: 444 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr GIJBCCLKIAC(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001BD RID: 445 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr MIGCEKOFIOJ(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001BE RID: 446 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr PEICEFDGOGJ(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001BF RID: 447 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr AAALCMKIBIP(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C0 RID: 448 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr GGLPKLGEBOL(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C1 RID: 449 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr KIBNBAONAFH(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C2 RID: 450 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr KLDBCIBANEF(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C3 RID: 451 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr IABDJGNANAB(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C4 RID: 452 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr NKBCJAFHMMJ(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C5 RID: 453 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr ANIPDOHFBNO(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C6 RID: 454 RVA: 0x00003AD4 File Offset: 0x00001CD4
+		~LPGLFOHHJJE()
+		{
+			if (this.JKIAAKDANFG != IntPtr.Zero)
+			{
+				Marshal.FreeHGlobal(this.JKIAAKDANFG);
+			}
+			if (this.PMBCCJGMCGD != IntPtr.Zero)
+			{
+				Marshal.FreeHGlobal(this.PMBCCJGMCGD);
+			}
+		}
+
+		// Token: 0x060001C7 RID: 455 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr GKJCLPDBCHG(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C8 RID: 456 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr BMHKLAIGBOE(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001C9 RID: 457 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr DDIJNCPCPPD(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001CA RID: 458 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr NAEGHICDNGG(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x060001CB RID: 459 RVA: 0x00003A32 File Offset: 0x00001C32
+		public static IntPtr OJAAPLBAMDB(LPGLFOHHJJE MECNHBOFHJB)
+		{
+			return MECNHBOFHJB.PMBCCJGMCGD;
+		}
+
+		// Token: 0x04000085 RID: 133
+		private IntPtr PMBCCJGMCGD;
+
+		// Token: 0x04000086 RID: 134
+		private IntPtr JKIAAKDANFG;
+	}
+}

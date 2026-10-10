@@ -1,0 +1,74 @@
+﻿using System;
+
+namespace Steamworks
+{
+	// Token: 0x020001C6 RID: 454
+	public static class AAKDPBLEJHL
+	{
+		// Token: 0x06002341 RID: 9025 RVA: 0x00018489 File Offset: 0x00016689
+		public static void FIDMCBAJBEB()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			IPBEAECLPOJ.CAOMNEJECHP();
+			FJNEGJPDHIC.IJHHMHAEKKE();
+			IFCLHDEHPBF.FIDMCBAJBEB();
+		}
+
+		// Token: 0x06002342 RID: 9026 RVA: 0x0001849F File Offset: 0x0001669F
+		public static bool GADBBCGIKBP(AppId_t EBDIAOBEHEM)
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			return IPBEAECLPOJ.PHHBPLCHHOP(EBDIAOBEHEM);
+		}
+
+		// Token: 0x06002343 RID: 9027 RVA: 0x000184AC File Offset: 0x000166AC
+		public static void DHBHJHFDNFP()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			IPBEAECLPOJ.JGCCHMGNNOB();
+		}
+
+		// Token: 0x06002344 RID: 9028 RVA: 0x000184B8 File Offset: 0x000166B8
+		public static bool PNENJMMCNPG()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			return IPBEAECLPOJ.MBCGDIJGDAE();
+		}
+
+		// Token: 0x06002345 RID: 9029 RVA: 0x000184C4 File Offset: 0x000166C4
+		public static bool GLFBHMMGHGL()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			bool flag = IPBEAECLPOJ.GKBJOLAGDOO();
+			if (flag)
+			{
+				flag = FJNEGJPDHIC.GLFBHMMGHGL();
+			}
+			if (flag)
+			{
+				IFCLHDEHPBF.BAMHPOCKBML();
+			}
+			return flag;
+		}
+
+		// Token: 0x06002346 RID: 9030 RVA: 0x000184EE File Offset: 0x000166EE
+		public static HSteamUser FLEBHODMECH()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			return HSteamUser.PEAFCMBIENC(IPBEAECLPOJ.DMFIAIPLNGN());
+		}
+
+		// Token: 0x06002347 RID: 9031 RVA: 0x000184FF File Offset: 0x000166FF
+		public static void CACBKDNDGJP()
+		{
+			IFCLHDEHPBF.KFGJPBDALAJ(false);
+		}
+
+		// Token: 0x06002348 RID: 9032 RVA: 0x00018507 File Offset: 0x00016707
+		public static HSteamPipe DBGFFILDPMH()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			return HSteamPipe.PEAFCMBIENC(IPBEAECLPOJ.IJFIDBHJDJO());
+		}
+	}
+}

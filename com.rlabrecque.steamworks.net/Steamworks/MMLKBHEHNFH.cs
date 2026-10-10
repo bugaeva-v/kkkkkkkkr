@@ -1,0 +1,126 @@
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace Steamworks
+{
+	// Token: 0x02000191 RID: 401
+	[CJDGDLJBPBN(4705)]
+	[StructLayout(LayoutKind.Sequential, Pack = 8)]
+	public struct MMLKBHEHNFH
+	{
+		// Token: 0x06001FE1 RID: 8161 RVA: 0x0001509C File Offset: 0x0001329C
+		public void CODGJDKMCIG(string AJLPALFJHCC)
+		{
+			MBLFNIBGODG.ILHFKLGKCCA(AJLPALFJHCC, this.HGHKINOFHID, 6);
+		}
+
+		// Token: 0x1700001E RID: 30
+		// (get) Token: 0x06001FE2 RID: 8162 RVA: 0x000150AB File Offset: 0x000132AB
+		// (set) Token: 0x06001FEE RID: 8174 RVA: 0x0001512A File Offset: 0x0001332A
+		public string CHMNKBGGKCD
+		{
+			get
+			{
+				return MBLFNIBGODG.AEPMJHFLLJD(this.HGHKINOFHID);
+			}
+			set
+			{
+				MBLFNIBGODG.BEPNFHEGGEP(value, this.HGHKINOFHID, 4);
+			}
+		}
+
+		// Token: 0x06001FE3 RID: 8163 RVA: 0x000150B8 File Offset: 0x000132B8
+		public string CAIMJNJKAHL()
+		{
+			return MBLFNIBGODG.AAMOJHFJNID(this.HGHKINOFHID);
+		}
+
+		// Token: 0x06001FE4 RID: 8164 RVA: 0x000150C5 File Offset: 0x000132C5
+		public string JBABKPPBMEJ()
+		{
+			return MBLFNIBGODG.GNNLBFFHBOF(this.HGHKINOFHID);
+		}
+
+		// Token: 0x06001FE5 RID: 8165 RVA: 0x000150D2 File Offset: 0x000132D2
+		public void LGOALPBFHJN(string AJLPALFJHCC)
+		{
+			MBLFNIBGODG.NHNKNABCLDI(AJLPALFJHCC, this.HGHKINOFHID, 7);
+		}
+
+		// Token: 0x06001FE6 RID: 8166 RVA: 0x000150E1 File Offset: 0x000132E1
+		public string ODCDDAOKLBP()
+		{
+			return MBLFNIBGODG.MLBFDGNJMJL(this.HGHKINOFHID);
+		}
+
+		// Token: 0x06001FE7 RID: 8167 RVA: 0x000150EE File Offset: 0x000132EE
+		public void FIEDCKODGMH(string AJLPALFJHCC)
+		{
+			MBLFNIBGODG.NLHFLAJAMMJ(AJLPALFJHCC, this.HGHKINOFHID, 6);
+		}
+
+		// Token: 0x06001FE8 RID: 8168 RVA: 0x000150C5 File Offset: 0x000132C5
+		public string FAMJILNJGGP()
+		{
+			return MBLFNIBGODG.GNNLBFFHBOF(this.HGHKINOFHID);
+		}
+
+		// Token: 0x06001FE9 RID: 8169 RVA: 0x000150FD File Offset: 0x000132FD
+		public void FKCGLNHEOHE(string AJLPALFJHCC)
+		{
+			MBLFNIBGODG.ILHFKLGKCCA(AJLPALFJHCC, this.HGHKINOFHID, 7);
+		}
+
+		// Token: 0x06001FEA RID: 8170 RVA: 0x000150AB File Offset: 0x000132AB
+		public string APDIPEBEEGG()
+		{
+			return MBLFNIBGODG.AEPMJHFLLJD(this.HGHKINOFHID);
+		}
+
+		// Token: 0x06001FEB RID: 8171 RVA: 0x0001510C File Offset: 0x0001330C
+		public void AHJCMKHEKAM(string AJLPALFJHCC)
+		{
+			MBLFNIBGODG.NHNKNABCLDI(AJLPALFJHCC, this.HGHKINOFHID, 4);
+		}
+
+		// Token: 0x06001FEC RID: 8172 RVA: 0x0001511B File Offset: 0x0001331B
+		public void LHMLANMFPIC(string AJLPALFJHCC)
+		{
+			MBLFNIBGODG.ILHFKLGKCCA(AJLPALFJHCC, this.HGHKINOFHID, 5);
+		}
+
+		// Token: 0x06001FED RID: 8173 RVA: 0x000150C5 File Offset: 0x000132C5
+		public string MJINKHBPHDJ()
+		{
+			return MBLFNIBGODG.GNNLBFFHBOF(this.HGHKINOFHID);
+		}
+
+		// Token: 0x06001FEF RID: 8175 RVA: 0x000150C5 File Offset: 0x000132C5
+		public string BIDBAJOEGHO()
+		{
+			return MBLFNIBGODG.GNNLBFFHBOF(this.HGHKINOFHID);
+		}
+
+		// Token: 0x06001FF0 RID: 8176 RVA: 0x00015139 File Offset: 0x00013339
+		public void ONKKMBOPHJF(string AJLPALFJHCC)
+		{
+			MBLFNIBGODG.NLHFLAJAMMJ(AJLPALFJHCC, this.HGHKINOFHID, 0);
+		}
+
+		// Token: 0x06001FF1 RID: 8177 RVA: 0x00015148 File Offset: 0x00013348
+		public void DHJPLKFDLND(string AJLPALFJHCC)
+		{
+			MBLFNIBGODG.HMJIHGAFLIH(AJLPALFJHCC, this.HGHKINOFHID, 3);
+		}
+
+		// Token: 0x04000960 RID: 2400
+		public const int POOFHCAEANP = 4705;
+
+		// Token: 0x04000961 RID: 2401
+		public LNFOAHHPFIH KNHHNKDEPFL;
+
+		// Token: 0x04000962 RID: 2402
+		[MarshalAs(UnmanagedType.ByValArray, SizeConst = 4)]
+		private byte[] HGHKINOFHID;
+	}
+}

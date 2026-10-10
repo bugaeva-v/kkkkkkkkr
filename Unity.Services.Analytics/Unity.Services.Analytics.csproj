@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1FA9BA0-F995-4C77-8C0E-90EB44767263}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Unity.Services.Analytics</RootNamespace>
+    <AssemblyName>Unity.Services.Analytics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcquisitionSourceEvent.cs" />
+    <Compile Include="AdCompletionStatus.cs" />
+    <Compile Include="AdImpressionEvent.cs" />
+    <Compile Include="AdPlacementType.cs" />
+    <Compile Include="AdProvider.cs" />
+    <Compile Include="AnalyticsContainer.cs" />
+    <Compile Include="AnalyticsService.cs" />
+    <Compile Include="AnalyticsServiceInstance.cs" />
+    <Compile Include="AnalyticsServiceSystemCalls.cs" />
+    <Compile Include="CoreStatsHelper.cs" />
+    <Compile Include="CustomEvent.cs" />
+    <Compile Include="Data\CommonDataWrapper.cs" />
+    <Compile Include="Data\DataGenerator.cs" />
+    <Compile Include="Data\DeviceDataWrapper.cs" />
+    <Compile Include="Data\ICommonData.cs" />
+    <Compile Include="Data\IDataGenerator.cs" />
+    <Compile Include="Data\IDeviceData.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="IAnalyticsContainer.cs" />
+    <Compile Include="IAnalyticsService.cs" />
+    <Compile Include="IAnalyticsServiceSystemCalls.cs" />
+    <Compile Include="ICoreStatsHelper.cs" />
+    <Compile Include="Internal\AnalyticsForgetter.cs" />
+    <Compile Include="Internal\AnalyticsUserIdServiceComponent.cs" />
+    <Compile Include="Internal\AnalyticsWebRequest.cs" />
+    <Compile Include="Internal\BufferSystemCalls.cs" />
+    <Compile Include="Internal\BufferX.cs" />
+    <Compile Include="Internal\DiskCache.cs" />
+    <Compile Include="Internal\Dispatcher.cs" />
+    <Compile Include="Internal\EventSummary.cs" />
+    <Compile Include="Internal\FileSystemCalls.cs" />
+    <Compile Include="Internal\IAnalyticsForgetter.cs" />
+    <Compile Include="Internal\IBuffer.cs" />
+    <Compile Include="Internal\IBufferDebug.cs" />
+    <Compile Include="Internal\IBufferSystemCalls.cs" />
+    <Compile Include="Internal\IContainerDebug.cs" />
+    <Compile Include="Internal\IdentityManager.cs" />
+    <Compile Include="Internal\IDiskCache.cs" />
+    <Compile Include="Internal\IDispatcher.cs" />
+    <Compile Include="Internal\IDispatcherDebug.cs" />
+    <Compile Include="Internal\IFileSystemCalls.cs" />
+    <Compile Include="Internal\IIdentityManager.cs" />
+    <Compile Include="Internal\IPersistence.cs" />
+    <Compile Include="Internal\IServiceDebug.cs" />
+    <Compile Include="Internal\ISessionManager.cs" />
+    <Compile Include="Internal\IWebRequest.cs" />
+    <Compile Include="Internal\IWebRequestHelper.cs" />
+    <Compile Include="Internal\Locale.cs" />
+    <Compile Include="Internal\PlayerPrefsPersistence.cs" />
+    <Compile Include="Internal\SessionManager.cs" />
+    <Compile Include="Internal\StandardEventServiceComponent.cs" />
+    <Compile Include="Internal\WebRequestHelper.cs" />
+    <Compile Include="IUnstructuredEventRecorder.cs" />
+    <Compile Include="Platform\DeviceVolumeProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SdkVersion.cs" />
+    <Compile Include="TransactionCurrencyConverter.cs" />
+    <Compile Include="TransactionEvent.cs" />
+    <Compile Include="TransactionFailedEvent.cs" />
+    <Compile Include="TransactionItem.cs" />
+    <Compile Include="TransactionRealCurrency.cs" />
+    <Compile Include="TransactionServer.cs" />
+    <Compile Include="TransactionType.cs" />
+    <Compile Include="TransactionVirtualCurrency.cs" />
+    <Compile Include="Ua2CoreInitializeCallback.cs" />
+    <Compile Include="VirtualCurrencyType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476723E}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Core\System.Core.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767244}</Project>
+      <Name>System.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Internal\Unity.Services.Core.Internal.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476726B}</Project>
+      <Name>Unity.Services.Core.Internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core\Unity.Services.Core.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767268}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.CoreModule\UnityEngine.CoreModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476727E}</Project>
+      <Name>UnityEngine.CoreModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.UnityAnalyticsCommonModule\UnityEngine.UnityAnalyticsCommonModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672A9}</Project>
+      <Name>UnityEngine.UnityAnalyticsCommonModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.UnityWebRequestModule\UnityEngine.UnityWebRequestModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672B0}</Project>
+      <Name>UnityEngine.UnityWebRequestModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

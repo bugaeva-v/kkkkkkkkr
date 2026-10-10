@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1FA9BA0-F995-4C77-8C0E-90EB44767236}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DG.Tweening</RootNamespace>
+    <AssemblyName>DOTweenPro</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\ABSAnimationComponent.cs" />
+    <Compile Include="Core\DOTweenAnimationType.cs" />
+    <Compile Include="Core\OnDisableBehaviour.cs" />
+    <Compile Include="Core\OnEnableBehaviour.cs" />
+    <Compile Include="Core\TargetType.cs" />
+    <Compile Include="Core\VisualManagerPreset.cs" />
+    <Compile Include="DOTweenInspectorMode.cs" />
+    <Compile Include="DOTweenPath.cs" />
+    <Compile Include="DOTweenPro.cs" />
+    <Compile Include="DOTweenVisualManager.cs" />
+    <Compile Include="HandlesDrawMode.cs" />
+    <Compile Include="HandlesType.cs" />
+    <Compile Include="Plugins\SpiralOptions.cs" />
+    <Compile Include="Plugins\SpiralPlugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShortcutExtensionsPro.cs" />
+    <Compile Include="SpiralMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DOTween\DOTween.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767232}</Project>
+      <Name>DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476723E}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Core\System.Core.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767244}</Project>
+      <Name>System.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine\UnityEngine.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767281}</Project>
+      <Name>UnityEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

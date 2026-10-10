@@ -1,0 +1,13 @@
+﻿using System;
+
+// Token: 0x02000393 RID: 915
+[Flags]
+internal enum CAHKIOGAFGO : ulong
+{
+	// Token: 0x04001F7F RID: 8063
+	FIRST_OPEN_REQUEST = 100UL,
+	// Token: 0x04001F80 RID: 8064
+	SESSION_REQUEST = 101UL,
+	// Token: 0x04001F81 RID: 8065
+	INAPP_EVENT_REQUEST = 102UL
+}

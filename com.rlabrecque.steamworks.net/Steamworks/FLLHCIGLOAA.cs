@@ -1,0 +1,52 @@
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace Steamworks
+{
+	// Token: 0x02000133 RID: 307
+	public static class FLLHCIGLOAA
+	{
+		// Token: 0x06001A1A RID: 6682 RVA: 0x000129D4 File Offset: 0x00010BD4
+		public static uint HIAAEIJEJLI()
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			return IPBEAECLPOJ.NABDJGOGEHI(FJNEGJPDHIC.GKJPFGLBAKK());
+		}
+
+		// Token: 0x06001A1B RID: 6683 RVA: 0x000129E5 File Offset: 0x00010BE5
+		public static int NCFJBLALLAC(AppId_t MINMIFBPLGA)
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			return IPBEAECLPOJ.POGAGJECFJJ(FJNEGJPDHIC.GKJPFGLBAKK(), MINMIFBPLGA);
+		}
+
+		// Token: 0x06001A1C RID: 6684 RVA: 0x000129F8 File Offset: 0x00010BF8
+		public static int NDKHBHOIEAK(AppId_t MINMIFBPLGA, out string DECMMMNKHKM, int FCNCOPLFPFG)
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			IntPtr intPtr = Marshal.AllocHGlobal(FCNCOPLFPFG);
+			int num = IPBEAECLPOJ.PHLFICLDAHJ(FJNEGJPDHIC.GKJPFGLBAKK(), MINMIFBPLGA, intPtr, FCNCOPLFPFG);
+			DECMMMNKHKM = ((num != -1) ? MBLFNIBGODG.EFIMHBHCPFM(intPtr) : null);
+			Marshal.FreeHGlobal(intPtr);
+			return num;
+		}
+
+		// Token: 0x06001A1D RID: 6685 RVA: 0x00012A35 File Offset: 0x00010C35
+		public static uint NEDPLHOLFCB(AppId_t[] MOEAKPOFCON, uint NBECIMPPBKJ)
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			return IPBEAECLPOJ.DKGMBHIIHJK(FJNEGJPDHIC.GKJPFGLBAKK(), MOEAKPOFCON, NBECIMPPBKJ);
+		}
+
+		// Token: 0x06001A1E RID: 6686 RVA: 0x00012A48 File Offset: 0x00010C48
+		public static int BGJNNIAIEPL(AppId_t MINMIFBPLGA, out string DAEMIIJHMFG, int FCNCOPLFPFG)
+		{
+			MBLFNIBGODG.FEGMJKAEJAB();
+			IntPtr intPtr = Marshal.AllocHGlobal(FCNCOPLFPFG);
+			int num = IPBEAECLPOJ.DEFKKPMPAIG(FJNEGJPDHIC.GKJPFGLBAKK(), MINMIFBPLGA, intPtr, FCNCOPLFPFG);
+			DAEMIIJHMFG = ((num != -1) ? MBLFNIBGODG.EFIMHBHCPFM(intPtr) : null);
+			Marshal.FreeHGlobal(intPtr);
+			return num;
+		}
+	}
+}

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1FA9BA0-F995-4C77-8C0E-90EB4476722B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App42-Unity3D-SDK-4.2</RootNamespace>
+    <AssemblyName>App42-Unity3D-SDK-4.2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app42InAppMessagingListner\EventSender.cs" />
+    <Compile Include="app42InAppMessagingListner\InAppMessaging.cs" />
+    <Compile Include="App42Json\App42JObject.cs" />
+    <Compile Include="App42Json\ArrayMetadata.cs" />
+    <Compile Include="App42Json\Condition.cs" />
+    <Compile Include="App42Json\ExporterFunc.2.cs" />
+    <Compile Include="App42Json\ExporterFunc.cs" />
+    <Compile Include="App42Json\FsmContext.cs" />
+    <Compile Include="App42Json\IJsonWrapper.cs" />
+    <Compile Include="App42Json\ImporterFunc.2.cs" />
+    <Compile Include="App42Json\ImporterFunc.cs" />
+    <Compile Include="App42Json\JsonData.cs" />
+    <Compile Include="App42Json\JsonException.cs" />
+    <Compile Include="App42Json\JsonMapper.cs" />
+    <Compile Include="App42Json\JsonReader.cs" />
+    <Compile Include="App42Json\JsonToken.cs" />
+    <Compile Include="App42Json\JsonType.cs" />
+    <Compile Include="App42Json\JsonWriter.cs" />
+    <Compile Include="App42Json\Lexer.cs" />
+    <Compile Include="App42Json\ObjectMetadata.cs" />
+    <Compile Include="App42Json\OrderedDictionaryEnumerator.cs" />
+    <Compile Include="App42Json\ParserToken.cs" />
+    <Compile Include="App42Json\PropertyMetadata.cs" />
+    <Compile Include="App42Json\WrapperFactory.cs" />
+    <Compile Include="App42Json\WriterContext.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\abTest\ABTest.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\abTest\ABTestResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\abTest\ABTestService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\achievement\Achievement.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\achievement\AchievementResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\achievement\AchievementService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\ACL.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42API.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42BadParameterException.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42CachedRequest.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42CallBack.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42Constants.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42EventTracker.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\app42Event\EventResponse.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\app42Event\EventService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\app42Event\EventServiceUtils.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\app42Event\Local.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42Exception.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42File.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42LimitException.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42Log.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42NotFoundException.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42OfflineResponse.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42Response.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42ResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42SecurityException.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\App42Service.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\avatar\Avatar.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\avatar\AvatarResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\avatar\AvatarService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\avatar\FileExtension.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\bravoboard\BravoBoard.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\bravoboard\BravoBoardResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\bravoboard\BravoBoardService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\buddy\Buddy.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\buddy\BuddyResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\buddy\BuddyService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\Config.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\connection\App42OfflineHandler.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\connection\RESTConnectorWWW.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\customcode\CustomCodeService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\email\Email.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\email\EmailMIME.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\email\EmailResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\email\EmailService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\gallery\Album.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\gallery\AlbumResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\gallery\AlbumService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\gallery\PhotoService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\game\Game.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\game\GameResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\game\GameService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\game\ScoreBoardService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\game\ScoreService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\geo\Geo.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\geo\GeoPoint.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\geo\GeoResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\geo\GeoService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\gift\Gift.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\gift\GiftResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\gift\GiftService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\HandleLogCallBack.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\imageProcessor\Image.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\imageProcessor\ImageProcessorResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\imageProcessor\ImageProcessorService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\Installation.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\log\Log.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\log\LogResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\log\LogService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\message\Queue.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\message\QueueResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\message\QueueService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\MetaResponse.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\Permission.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\pushNotification\DeviceType.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\pushNotification\PushNotification.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\pushNotification\PushNotificationResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\pushNotification\PushNotificationService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\pushNotification\Tile.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\recommend\PreferenceData.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\recommend\Recommender.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\recommend\RecommenderResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\recommend\RecommenderService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\recommend\RecommenderSimilarity.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\review\Review.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\review\ReviewResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\review\ReviewService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\reward\Reward.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\reward\RewardResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\reward\RewardService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\ServiceAPI.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\session\Session.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\session\SessionResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\session\SessionService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\shopping\Cart.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\shopping\CartResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\shopping\CartService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\shopping\Catalogue.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\shopping\CatalogueResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\shopping\CatalogueService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\shopping\ItemData.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\shopping\PaymentStatus.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\social\FacebookService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\social\FBPerms.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\social\Social.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\social\SocialResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\social\SocialService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\GeoOperator.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\GeoQuery.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\GeoTag.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\Operator.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\OrderByType.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\Query.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\QueryBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\Storage.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\StorageResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\storage\StorageService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\timer\Timer.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\timer\TimerResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\timer\TimerService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\upload\Upload.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\upload\UploadFileType.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\upload\UploadResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\upload\UploadService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\user\ProfileData.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\user\User.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\user\UserGender.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\user\UserResponseBuilder.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\user\UserService.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\util\Base64.cs" />
+    <Compile Include="com\shephertz\app42\paas\sdk\csharp\util\Util.cs" />
+    <Compile Include="CSharpAssemble\UrlEncoder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleJSON\JSON.cs" />
+    <Compile Include="SimpleJSON\JSONArray.cs" />
+    <Compile Include="SimpleJSON\JSONBool.cs" />
+    <Compile Include="SimpleJSON\JSONLazyCreator.cs" />
+    <Compile Include="SimpleJSON\JSONNode.cs" />
+    <Compile Include="SimpleJSON\JSONNodeType.cs" />
+    <Compile Include="SimpleJSON\JSONNull.cs" />
+    <Compile Include="SimpleJSON\JSONNumber.cs" />
+    <Compile Include="SimpleJSON\JSONObject.cs" />
+    <Compile Include="SimpleJSON\JSONString.cs" />
+    <Compile Include="SimpleJSON\JSONTextMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476723E}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Core\System.Core.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767244}</Project>
+      <Name>System.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System\System.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767247}</Project>
+      <Name>System</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine\UnityEngine.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767281}</Project>
+      <Name>UnityEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

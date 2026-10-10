@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1FA9BA0-F995-4C77-8C0E-90EB4476726D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Unity.Services.Core.Registration</RootNamespace>
+    <AssemblyName>Unity.Services.Core.Registration</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CorePackageInitializer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476723E}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Newtonsoft.Json\Newtonsoft.Json.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767240}</Project>
+      <Name>Newtonsoft.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Configuration\Unity.Services.Core.Configuration.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767266}</Project>
+      <Name>Unity.Services.Core.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Device\Unity.Services.Core.Device.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767267}</Project>
+      <Name>Unity.Services.Core.Device</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Environments.Internal\Unity.Services.Core.Environments.Internal.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476726A}</Project>
+      <Name>Unity.Services.Core.Environments.Internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Internal\Unity.Services.Core.Internal.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476726B}</Project>
+      <Name>Unity.Services.Core.Internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Scheduler\Unity.Services.Core.Scheduler.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476726E}</Project>
+      <Name>Unity.Services.Core.Scheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Telemetry\Unity.Services.Core.Telemetry.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476726F}</Project>
+      <Name>Unity.Services.Core.Telemetry</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Threading\Unity.Services.Core.Threading.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767270}</Project>
+      <Name>Unity.Services.Core.Threading</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core\Unity.Services.Core.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767268}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.CoreModule\UnityEngine.CoreModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476727E}</Project>
+      <Name>UnityEngine.CoreModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

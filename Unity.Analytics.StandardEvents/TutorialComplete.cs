@@ -1,0 +1,13 @@
+﻿using System;
+
+namespace UnityEngine.Analytics
+{
+	// Token: 0x02000031 RID: 49
+	[StandardEventName("tutorial_complete", "Onboarding", "Send this event when the player completes a tutorial.")]
+	public struct TutorialComplete
+	{
+		// Token: 0x040000EA RID: 234
+		[OptionalParameter("tutorial_id", "The tutorial name or ID.")]
+		public string tutorialId;
+	}
+}

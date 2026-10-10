@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1FA9BA0-F995-4C77-8C0E-90EB44767230}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.rlabrecque.steamworks.net</RootNamespace>
+    <AssemblyName>com.rlabrecque.steamworks.net</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrivateImplementationDetailsKQPLETG\__BB_OBFUSCATOR_VERSION_3_11_6.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steamworks\AAANFDDDCKM.cs" />
+    <Compile Include="Steamworks\AAJGGBGJOMA.cs" />
+    <Compile Include="Steamworks\AAKBAHHNIGI.cs" />
+    <Compile Include="Steamworks\AAKBLMDKPJN.cs" />
+    <Compile Include="Steamworks\AAKDPBLEJHL.cs" />
+    <Compile Include="Steamworks\AAPOJJDHHGJ.cs" />
+    <Compile Include="Steamworks\ABJFNMIBGEM.cs" />
+    <Compile Include="Steamworks\AccountID_t.cs" />
+    <Compile Include="Steamworks\ACIMDHIJCKD.cs" />
+    <Compile Include="Steamworks\ACKDMIEOIID.cs" />
+    <Compile Include="Steamworks\ACNFMKGJDIO.cs" />
+    <Compile Include="Steamworks\AEEIMFAGCJP.cs" />
+    <Compile Include="Steamworks\AEKIHHEDPMM.cs" />
+    <Compile Include="Steamworks\AEOLBPBPKBF.cs" />
+    <Compile Include="Steamworks\AFIFGIEEBFC.cs" />
+    <Compile Include="Steamworks\AHMMENMFADO.cs" />
+    <Compile Include="Steamworks\AIGCOFEJAIF.cs" />
+    <Compile Include="Steamworks\AIKJNJBOPFM.cs" />
+    <Compile Include="Steamworks\AKDEGMMGMAD.cs" />
+    <Compile Include="Steamworks\AKMCIPJLMDM.cs" />
+    <Compile Include="Steamworks\ALCGIMFMDCM.cs" />
+    <Compile Include="Steamworks\ALLKEIEDPJD.cs" />
+    <Compile Include="Steamworks\ALLPEMGCAMA.cs" />
+    <Compile Include="Steamworks\AMCABKAMPCE.cs" />
+    <Compile Include="Steamworks\AMIABMJHLGM.cs" />
+    <Compile Include="Steamworks\AMKGPOLEBFB.cs" />
+    <Compile Include="Steamworks\AMPNNKAOGON.cs" />
+    <Compile Include="Steamworks\ANCGJEKGNCA.cs" />
+    <Compile Include="Steamworks\AOPICOIJGJL.cs" />
+    <Compile Include="Steamworks\APINJODAOFN.cs" />
+    <Compile Include="Steamworks\APKMKDBLCKE.cs" />
+    <Compile Include="Steamworks\APMPLOHNDEE.cs" />
+    <Compile Include="Steamworks\APPEDLKJKML.cs" />
+    <Compile Include="Steamworks\AppId_t.cs" />
+    <Compile Include="Steamworks\BAIONFIDHBI.cs" />
+    <Compile Include="Steamworks\BALPMDPLGKH.cs" />
+    <Compile Include="Steamworks\BAPPGCJCPOK.cs" />
+    <Compile Include="Steamworks\BBJNDBIGKNI.cs" />
+    <Compile Include="Steamworks\BCFHHKHBNFG.cs" />
+    <Compile Include="Steamworks\BCNFCLJALCI.cs" />
+    <Compile Include="Steamworks\BDDLMCJAJOP.cs" />
+    <Compile Include="Steamworks\BDJJIKIGKJC.cs" />
+    <Compile Include="Steamworks\BDKFHHGBLGG.cs" />
+    <Compile Include="Steamworks\BDMPKENOBEI.cs" />
+    <Compile Include="Steamworks\BELJHIBFPNG.cs" />
+    <Compile Include="Steamworks\BFCLOEMIGMI.cs" />
+    <Compile Include="Steamworks\BFJELNOJHEL.cs" />
+    <Compile Include="Steamworks\BFMNMGHHHBC.cs" />
+    <Compile Include="Steamworks\BGHMNPIKMIM.cs" />
+    <Compile Include="Steamworks\BHIMLNJODHD.cs" />
+    <Compile Include="Steamworks\BIBHCKMDLIH.cs" />
+    <Compile Include="Steamworks\BIKICLPANOL.cs" />
+    <Compile Include="Steamworks\BIPOIENHHDB.cs" />
+    <Compile Include="Steamworks\BJIFCDIHIHG.cs" />
+    <Compile Include="Steamworks\BKJPOEEPPMD.cs" />
+    <Compile Include="Steamworks\BMPGHLBDLAF.cs" />
+    <Compile Include="Steamworks\BNNNJIINNHB.cs" />
+    <Compile Include="Steamworks\BOHKMPNGJGE.cs" />
+    <Compile Include="Steamworks\BOHKOCNDADD.cs" />
+    <Compile Include="Steamworks\BOLLDGJJLLM.cs" />
+    <Compile Include="Steamworks\BPPLPOBFOKH.cs" />
+    <Compile Include="Steamworks\CAECAAGLINL.cs" />
+    <Compile Include="Steamworks\CCACIEPKHPL.cs" />
+    <Compile Include="Steamworks\CCAFHEEOJKN.cs" />
+    <Compile Include="Steamworks\CCNEELCEHJP.cs" />
+    <Compile Include="Steamworks\CCPIFOABEKG.cs" />
+    <Compile Include="Steamworks\CDDIKGNKFMG.cs" />
+    <Compile Include="Steamworks\CDLIAGLJFFJ.cs" />
+    <Compile Include="Steamworks\CDMMABAEFAM.cs" />
+    <Compile Include="Steamworks\CELJDGNEJND.cs" />
+    <Compile Include="Steamworks\CFPECDILDNP.cs" />
+    <Compile Include="Steamworks\CGameID.cs" />
+    <Compile Include="Steamworks\CJDGDLJBPBN.cs" />
+    <Compile Include="Steamworks\CJICMOBONIK.cs" />
+    <Compile Include="Steamworks\CJJHIMGFCDP.cs" />
+    <Compile Include="Steamworks\CKAIGJENPCJ.cs" />
+    <Compile Include="Steamworks\CKGAGKPEBKL.cs" />
+    <Compile Include="Steamworks\CLCJOEKKAHH.cs" />
+    <Compile Include="Steamworks\CMDODJKKNGO.cs" />
+    <Compile Include="Steamworks\CMFKHKCJBAH.cs" />
+    <Compile Include="Steamworks\CNMHECCBIOP.cs" />
+    <Compile Include="Steamworks\CNMNFDBIGJE.cs" />
+    <Compile Include="Steamworks\CPENIBKCDIL.cs" />
+    <Compile Include="Steamworks\CPIJIAGEPFJ.cs" />
+    <Compile Include="Steamworks\CPLHKCENLAK.cs" />
+    <Compile Include="Steamworks\CSteamID.cs" />
+    <Compile Include="Steamworks\DBAFMCEJGFB.cs" />
+    <Compile Include="Steamworks\DBHPFDFKFHC.cs" />
+    <Compile Include="Steamworks\DBJPCBDMANI.cs" />
+    <Compile Include="Steamworks\DBNHIOLLKAA.cs" />
+    <Compile Include="Steamworks\DCJHCLNHIBM.cs" />
+    <Compile Include="Steamworks\DDKDDLEFLKM.cs" />
+    <Compile Include="Steamworks\DDKODIOIIAP.cs" />
+    <Compile Include="Steamworks\DEAPGLFPMBL.cs" />
+    <Compile Include="Steamworks\DepotId_t.cs" />
+    <Compile Include="Steamworks\DFKACHOBELE.cs" />
+    <Compile Include="Steamworks\DFLFHGKACGM.cs" />
+    <Compile Include="Steamworks\DGNKMGPCDKN.cs" />
+    <Compile Include="Steamworks\DHOJCKGFAKE.cs" />
+    <Compile Include="Steamworks\DINKKJJBJGO.cs" />
+    <Compile Include="Steamworks\DJPEOEEPIJD.cs" />
+    <Compile Include="Steamworks\DKDALKDMDLJ.cs" />
+    <Compile Include="Steamworks\DKOJBCIAPMH.cs" />
+    <Compile Include="Steamworks\DMEFECICKHJ.cs" />
+    <Compile Include="Steamworks\DMFCADALDJF.cs" />
+    <Compile Include="Steamworks\DNBACJNGPEA.cs" />
+    <Compile Include="Steamworks\DNEHHBIPLOF.cs" />
+    <Compile Include="Steamworks\DNGDBPINOOO.cs" />
+    <Compile Include="Steamworks\DNNONBAOPCJ.cs" />
+    <Compile Include="Steamworks\DPIMBDJOJAM.cs" />
+    <Compile Include="Steamworks\DPLIHMBPLJO.cs" />
+    <Compile Include="Steamworks\DPMJNKPBHON.cs" />
+    <Compile Include="Steamworks\DPMLCAHJOJP.cs" />
+    <Compile Include="Steamworks\EAGOCMFGADG.cs" />
+    <Compile Include="Steamworks\EDELONALMAM.cs" />
+    <Compile Include="Steamworks\EELMHLHPMPM.cs" />
+    <Compile Include="Steamworks\EFBPBGHPIJK.cs" />
+    <Compile Include="Steamworks\EFGFJHDJLOK.cs" />
+    <Compile Include="Steamworks\EFIFCLKFLCC.cs" />
+    <Compile Include="Steamworks\EGCHGFPLNFC.cs" />
+    <Compile Include="Steamworks\EHHMBKOJMBH.cs" />
+    <Compile Include="Steamworks\EHIAHGALFFE.cs" />
+    <Compile Include="Steamworks\EHPINEPOEED.cs" />
+    <Compile Include="Steamworks\EIMINDPCJIJ.cs" />
+    <Compile Include="Steamworks\EKHDJPGMBFP.cs" />
+    <Compile Include="Steamworks\EKPONLKKCHN.cs" />
+    <Compile Include="Steamworks\ELIAAKNHCJD.cs" />
+    <Compile Include="Steamworks\EMHKPIBJIBH.cs" />
+    <Compile Include="Steamworks\EMKEILAPOND.cs" />
+    <Compile Include="Steamworks\ENAHGAAGOIF.cs" />
+    <Compile Include="Steamworks\ENGPALDFIAM.cs" />
+    <Compile Include="Steamworks\ENHBAIKMPFN.cs" />
+    <Compile Include="Steamworks\EOABJGIIINH.cs" />
+    <Compile Include="Steamworks\EOBBNIJNDFM.cs" />
+    <Compile Include="Steamworks\EOKNMIPAHFM.cs" />
+    <Compile Include="Steamworks\EPEAAMILNCP.cs" />
+    <Compile Include="Steamworks\EPJEPKKGDLI.cs" />
+    <Compile Include="Steamworks\EPOEEAPCFLL.cs" />
+    <Compile Include="Steamworks\FACAHAKJMLA.cs" />
+    <Compile Include="Steamworks\FADJLMADGPK.cs" />
+    <Compile Include="Steamworks\FAIABBGHMEG.cs" />
+    <Compile Include="Steamworks\FBECHDMCFHK.cs" />
+    <Compile Include="Steamworks\FBEENPEPJKO.cs" />
+    <Compile Include="Steamworks\FCDHNDHKJKM.cs" />
+    <Compile Include="Steamworks\FDICKCFIBMA.cs" />
+    <Compile Include="Steamworks\FFHKPOFEHID.cs" />
+    <Compile Include="Steamworks\FGFIPOHIMFP.cs" />
+    <Compile Include="Steamworks\FGJLDDFIHPE.cs" />
+    <Compile Include="Steamworks\FGMHAMAEGFJ.cs" />
+    <Compile Include="Steamworks\FHJDCKGJELE.cs" />
+    <Compile Include="Steamworks\FHOMBFLKPAG.cs" />
+    <Compile Include="Steamworks\FIDOKJOFNLH.cs" />
+    <Compile Include="Steamworks\FIFOFNFFKGD.cs" />
+    <Compile Include="Steamworks\FIKDFHCIKCM.cs" />
+    <Compile Include="Steamworks\FJHNDEONFDH.cs" />
+    <Compile Include="Steamworks\FJNEGJPDHIC.cs" />
+    <Compile Include="Steamworks\FJNHNDBKGFH.cs" />
+    <Compile Include="Steamworks\FKCIBNBJJPM.cs" />
+    <Compile Include="Steamworks\FLIBFDNHPFJ.cs" />
+    <Compile Include="Steamworks\FLLHCIGLOAA.cs" />
+    <Compile Include="Steamworks\FMPMIBBOIAM.cs" />
+    <Compile Include="Steamworks\FNPKPCENKCD.cs" />
+    <Compile Include="Steamworks\FOCMDDJBMPE.cs" />
+    <Compile Include="Steamworks\FPCDHGFGMEC.cs" />
+    <Compile Include="Steamworks\FPDIBMHPFCI.cs" />
+    <Compile Include="Steamworks\FPENMJDNAHO.cs" />
+    <Compile Include="Steamworks\FPKHIMINDDO.cs" />
+    <Compile Include="Steamworks\FriendsGroupID_t.cs" />
+    <Compile Include="Steamworks\GAHHJIKCBPC.cs" />
+    <Compile Include="Steamworks\gameserveritem_t.cs" />
+    <Compile Include="Steamworks\GCFDFJDEPLJ.cs" />
+    <Compile Include="Steamworks\GCOJOCEOADI.cs" />
+    <Compile Include="Steamworks\GCOOJAKGOLL.cs" />
+    <Compile Include="Steamworks\GFBJCPEGCNJ.cs" />
+    <Compile Include="Steamworks\GFDPLFCJBOG.cs" />
+    <Compile Include="Steamworks\GFFIBEJFMOB.cs" />
+    <Compile Include="Steamworks\GGBFGPNFANI.cs" />
+    <Compile Include="Steamworks\GGHAOEFPPFC.cs" />
+    <Compile Include="Steamworks\GGKMBJDKJBP.cs" />
+    <Compile Include="Steamworks\GHBOPCMENLP.cs" />
+    <Compile Include="Steamworks\GHMIBKIKDAD.cs" />
+    <Compile Include="Steamworks\GICKMGMPOEL.cs" />
+    <Compile Include="Steamworks\GMDPGDJEDKG.cs" />
+    <Compile Include="Steamworks\GMIGFFKEGMK.cs" />
+    <Compile Include="Steamworks\GMJDEAHOAMP.cs" />
+    <Compile Include="Steamworks\GOCEFFOIPAP.cs" />
+    <Compile Include="Steamworks\GOCLFKFGIOH.cs" />
+    <Compile Include="Steamworks\GOHKKDPHOKO.cs" />
+    <Compile Include="Steamworks\GPJCEGEJAMI.cs" />
+    <Compile Include="Steamworks\GPNMMDGDAMD.cs" />
+    <Compile Include="Steamworks\HAFBALJHAPH.cs" />
+    <Compile Include="Steamworks\HAMFOMBMKIF.cs" />
+    <Compile Include="Steamworks\HAuthTicket.cs" />
+    <Compile Include="Steamworks\HBBBPKNOHLG.cs" />
+    <Compile Include="Steamworks\HBBHKDBDKPF.cs" />
+    <Compile Include="Steamworks\HCDAJGNJEJC.cs" />
+    <Compile Include="Steamworks\HCEDMHEOKCK.cs" />
+    <Compile Include="Steamworks\HCPJGKPBMLO.cs" />
+    <Compile Include="Steamworks\HECEHANBMCK.cs" />
+    <Compile Include="Steamworks\HFNIOHHLOHN.cs" />
+    <Compile Include="Steamworks\HHBMAKCBGJI.cs" />
+    <Compile Include="Steamworks\HHTMLBrowser.cs" />
+    <Compile Include="Steamworks\HJBHJDPLPAF.cs" />
+    <Compile Include="Steamworks\HJEAPDAHODL.cs" />
+    <Compile Include="Steamworks\HJNNPCJKHBP.cs" />
+    <Compile Include="Steamworks\HKNMEFAFILE.cs" />
+    <Compile Include="Steamworks\HLANBPHOFND.cs" />
+    <Compile Include="Steamworks\HLKBLMFMBFC.cs" />
+    <Compile Include="Steamworks\HMEOPEBNGDK.cs" />
+    <Compile Include="Steamworks\HNNJLFPNGAP.cs" />
+    <Compile Include="Steamworks\HNOPNEGOKGI.cs" />
+    <Compile Include="Steamworks\HODAFHJODFL.cs" />
+    <Compile Include="Steamworks\HOILHGHKANM.cs" />
+    <Compile Include="Steamworks\HOKGCIMJHIK.cs" />
+    <Compile Include="Steamworks\HPJGKJEBIFI.cs" />
+    <Compile Include="Steamworks\HPKJNIABFLM.cs" />
+    <Compile Include="Steamworks\HPPLLCCNJIL.cs" />
+    <Compile Include="Steamworks\HServerListRequest.cs" />
+    <Compile Include="Steamworks\HServerQuery.cs" />
+    <Compile Include="Steamworks\HSteamListenSocket.cs" />
+    <Compile Include="Steamworks\HSteamNetConnection.cs" />
+    <Compile Include="Steamworks\HSteamNetPollGroup.cs" />
+    <Compile Include="Steamworks\HSteamPipe.cs" />
+    <Compile Include="Steamworks\HSteamUser.cs" />
+    <Compile Include="Steamworks\HTTPCookieContainerHandle.cs" />
+    <Compile Include="Steamworks\HTTPRequestHandle.cs" />
+    <Compile Include="Steamworks\IABIDPBONBF.cs" />
+    <Compile Include="Steamworks\IAEPAKCDMNA.cs" />
+    <Compile Include="Steamworks\IAMAIFNDJEJ.cs" />
+    <Compile Include="Steamworks\IBKFNBPADAF.cs" />
+    <Compile Include="Steamworks\ICELMIPCIKJ.cs" />
+    <Compile Include="Steamworks\ICKNFPAIKBD.cs" />
+    <Compile Include="Steamworks\ICNBJAFGOIN.cs" />
+    <Compile Include="Steamworks\IDFCGLEDJJN.cs" />
+    <Compile Include="Steamworks\IDFJJLLDDEK.cs" />
+    <Compile Include="Steamworks\IELBOLGANNB.cs" />
+    <Compile Include="Steamworks\IFCLHDEHPBF.cs" />
+    <Compile Include="Steamworks\IFJCNAFEEJB.cs" />
+    <Compile Include="Steamworks\IGKFOGFJIEF.cs" />
+    <Compile Include="Steamworks\IICBECGEDBA.cs" />
+    <Compile Include="Steamworks\IJAFBADHDCB.cs" />
+    <Compile Include="Steamworks\IJFPCLALDPP.cs" />
+    <Compile Include="Steamworks\IKBDHGHBCML.cs" />
+    <Compile Include="Steamworks\IKDDMDHKCFM.cs" />
+    <Compile Include="Steamworks\IKIMJFHJLMP.cs" />
+    <Compile Include="Steamworks\IKIPIBBEODE.cs" />
+    <Compile Include="Steamworks\ILOLDAKCIIK.cs" />
+    <Compile Include="Steamworks\IMCJIKMOLPN.cs" />
+    <Compile Include="Steamworks\IMIJNGLJOEP.cs" />
+    <Compile Include="Steamworks\IMIPKHBHFJO.cs" />
+    <Compile Include="Steamworks\IMPJJEGOLME.cs" />
+    <Compile Include="Steamworks\INGFMCDIJLE.cs" />
+    <Compile Include="Steamworks\InputActionSetHandle_t.cs" />
+    <Compile Include="Steamworks\InputAnalogActionHandle_t.cs" />
+    <Compile Include="Steamworks\InputDigitalActionHandle_t.cs" />
+    <Compile Include="Steamworks\InputHandle_t.cs" />
+    <Compile Include="Steamworks\IOCDIMGCAFH.cs" />
+    <Compile Include="Steamworks\IOPAFGIDMNF.cs" />
+    <Compile Include="Steamworks\IPBEAECLPOJ.cs" />
+    <Compile Include="Steamworks\IPENMDLKAIE.cs" />
+    <Compile Include="Steamworks\IPJJAAPADPM.cs" />
+    <Compile Include="Steamworks\ISteamNetworkingConnectionSignaling.cs" />
+    <Compile Include="Steamworks\ISteamNetworkingSignalingRecvContext.cs" />
+    <Compile Include="Steamworks\JAHKIBJGEDE.cs" />
+    <Compile Include="Steamworks\JAIJPGKJPPE.cs" />
+    <Compile Include="Steamworks\JBKFGBAJFGJ.cs" />
+    <Compile Include="Steamworks\JBOIHLAMFJC.cs" />
+    <Compile Include="Steamworks\JDKFIBKBNLG.cs" />
+    <Compile Include="Steamworks\JDPNOCFHMPK.cs" />
+    <Compile Include="Steamworks\JEGCFCCLOEK.cs" />
+    <Compile Include="Steamworks\JHEBPHGLLMK.cs" />
+    <Compile Include="Steamworks\JHHBCHLCDGH.cs" />
+    <Compile Include="Steamworks\JJKNDPOHHMN.cs" />
+    <Compile Include="Steamworks\JLFOJFHCPHA.cs" />
+    <Compile Include="Steamworks\JLHKGHKLNED.cs" />
+    <Compile Include="Steamworks\JLLNIFDGCBD.cs" />
+    <Compile Include="Steamworks\JPFOMHCIAJI.cs" />
+    <Compile Include="Steamworks\KBKCDOCDIOG.cs" />
+    <Compile Include="Steamworks\KDKGGOIKBDL.cs" />
+    <Compile Include="Steamworks\KDPLPHMCCPC.cs" />
+    <Compile Include="Steamworks\KECLCPJHOAJ.cs" />
+    <Compile Include="Steamworks\KFFLAFCCNFO.cs" />
+    <Compile Include="Steamworks\KFMNBLNIOMP.cs" />
+    <Compile Include="Steamworks\KGAKJBJNLPE.cs" />
+    <Compile Include="Steamworks\KGAPJCPLBJO.cs" />
+    <Compile Include="Steamworks\KGCGAFOJAFL.cs" />
+    <Compile Include="Steamworks\KHNHIBEHJHF.cs" />
+    <Compile Include="Steamworks\KIICNLGIIAC.cs" />
+    <Compile Include="Steamworks\KJCBNEEICKO.cs" />
+    <Compile Include="Steamworks\KKGOGDCPPEB.cs" />
+    <Compile Include="Steamworks\KKICEMPJLGM.cs" />
+    <Compile Include="Steamworks\KKOFPAHDCHK.cs" />
+    <Compile Include="Steamworks\KLMECMKLLGJ.cs" />
+    <Compile Include="Steamworks\KMKFKLJKIMH.cs" />
+    <Compile Include="Steamworks\KMNOBHGMAON.cs" />
+    <Compile Include="Steamworks\KMPJGOBKDMO.cs" />
+    <Compile Include="Steamworks\KNKOKNHHGMA.cs" />
+    <Compile Include="Steamworks\KOLEEMKJHDF.cs" />
+    <Compile Include="Steamworks\KPICCGBIAOC.cs" />
+    <Compile Include="Steamworks\LADGNAKMNBF.cs" />
+    <Compile Include="Steamworks\LAMANAOFFOF.cs" />
+    <Compile Include="Steamworks\LDHAIFDEJEC.cs" />
+    <Compile Include="Steamworks\LDHIJNEBJFF.cs" />
+    <Compile Include="Steamworks\LDKBMFEMLLO.cs" />
+    <Compile Include="Steamworks\LDLLFMLHEPB.cs" />
+    <Compile Include="Steamworks\LEHAKIEKJOA.cs" />
+    <Compile Include="Steamworks\LELCEOCLEMG.cs" />
+    <Compile Include="Steamworks\LFJLCAMIMBN.cs" />
+    <Compile Include="Steamworks\LFNOPJFDEPH.cs" />
+    <Compile Include="Steamworks\LGLCIHJJPHM.cs" />
+    <Compile Include="Steamworks\LHFFDDPHFMO.cs" />
+    <Compile Include="Steamworks\LHIJFCLGEKH.cs" />
+    <Compile Include="Steamworks\LIBJHDBHGON.cs" />
+    <Compile Include="Steamworks\LIMKNJJECAM.cs" />
+    <Compile Include="Steamworks\LJOPGIIGMLL.cs" />
+    <Compile Include="Steamworks\LKODMDHEFGH.cs" />
+    <Compile Include="Steamworks\LLBDBBLHDJH.cs" />
+    <Compile Include="Steamworks\LMEAAPJALHL.cs" />
+    <Compile Include="Steamworks\LMIGOFHHAPI.cs" />
+    <Compile Include="Steamworks\LMNODGACBPI.cs" />
+    <Compile Include="Steamworks\LNAOFEFOIGJ.cs" />
+    <Compile Include="Steamworks\LNFOAHHPFIH.cs" />
+    <Compile Include="Steamworks\LOICOEMLMNC.cs" />
+    <Compile Include="Steamworks\LPGLFOHHJJE.cs" />
+    <Compile Include="Steamworks\MAEJKBBEOMA.cs" />
+    <Compile Include="Steamworks\MBLFNIBGODG.cs" />
+    <Compile Include="Steamworks\MCNPMAEHFOJ.cs" />
+    <Compile Include="Steamworks\MCPBLOHFBAP.cs" />
+    <Compile Include="Steamworks\MDCKDNBFIBH.cs" />
+    <Compile Include="Steamworks\MDDONIDBIAE.cs" />
+    <Compile Include="Steamworks\MDOFJDBNBDP.cs" />
+    <Compile Include="Steamworks\MEGMBEDGFME.cs" />
+    <Compile Include="Steamworks\MFEKJMENHKK.cs" />
+    <Compile Include="Steamworks\MHBOAMADONO.cs" />
+    <Compile Include="Steamworks\MHEMDAHDOGH.cs" />
+    <Compile Include="Steamworks\MIBEOAOJGMD.cs" />
+    <Compile Include="Steamworks\MICIGEKKJFI.cs" />
+    <Compile Include="Steamworks\MIHEOPNKMBL.cs" />
+    <Compile Include="Steamworks\MJIBNAPEJAK.cs" />
+    <Compile Include="Steamworks\MJPAPGABKLB.cs" />
+    <Compile Include="Steamworks\MKEBEFLDFDO.cs" />
+    <Compile Include="Steamworks\MKJCFHCOKCP.cs" />
+    <Compile Include="Steamworks\MMLKBHEHNFH.cs" />
+    <Compile Include="Steamworks\MMOGLJOFPBG.cs" />
+    <Compile Include="Steamworks\MNDJADOPBIN.cs" />
+    <Compile Include="Steamworks\MNJICANMBJK.cs" />
+    <Compile Include="Steamworks\MNLOEOGEDHN.cs" />
+    <Compile Include="Steamworks\MOILPBAGAKC.cs" />
+    <Compile Include="Steamworks\NABCJLPNNFL.cs" />
+    <Compile Include="Steamworks\NALKELJECKK.cs" />
+    <Compile Include="Steamworks\NCJMIOPELBJ.cs" />
+    <Compile Include="Steamworks\NCPHHEJBLJF.cs" />
+    <Compile Include="Steamworks\NDCBHEICEJE.cs" />
+    <Compile Include="Steamworks\NDFODCDLPAC.cs" />
+    <Compile Include="Steamworks\NEBHGELIKDH.cs" />
+    <Compile Include="Steamworks\NEEBEBPHBNE.cs" />
+    <Compile Include="Steamworks\NENNIKDLNKO.cs" />
+    <Compile Include="Steamworks\NFJIODANPKP.cs" />
+    <Compile Include="Steamworks\NHDODMABCIC.cs" />
+    <Compile Include="Steamworks\NIAGEJIKNCJ.cs" />
+    <Compile Include="Steamworks\NIGIHNPCCHO.cs" />
+    <Compile Include="Steamworks\NIPIIBHKNJJ.cs" />
+    <Compile Include="Steamworks\NJIMNHLBOGH.cs" />
+    <Compile Include="Steamworks\NJLKJPCPHGG.cs" />
+    <Compile Include="Steamworks\NKOGGOBGGFM.cs" />
+    <Compile Include="Steamworks\NLFLBPLHLPN.cs" />
+    <Compile Include="Steamworks\NLIMKCDKAGF.cs" />
+    <Compile Include="Steamworks\NMCKDCKKJOJ.cs" />
+    <Compile Include="Steamworks\NMHAPJFJPDN.cs" />
+    <Compile Include="Steamworks\NNMLFJGPMHE.cs" />
+    <Compile Include="Steamworks\NPDHKFEKEBM.cs" />
+    <Compile Include="Steamworks\NPGKDNPJEON.cs" />
+    <Compile Include="Steamworks\NPJLJNALHPC.cs" />
+    <Compile Include="Steamworks\NPPLPFHFJDH.cs" />
+    <Compile Include="Steamworks\OAGKEPBKEMA.cs" />
+    <Compile Include="Steamworks\OBGIGANHFKG.cs" />
+    <Compile Include="Steamworks\OCPONCIEGFF.cs" />
+    <Compile Include="Steamworks\ODGNCOPBILM.cs" />
+    <Compile Include="Steamworks\OEHDLBJKIJK.cs" />
+    <Compile Include="Steamworks\OFHJIJJNPEL.cs" />
+    <Compile Include="Steamworks\OGAFLKBCAHH.cs" />
+    <Compile Include="Steamworks\OGJLHOKBFKJ.cs" />
+    <Compile Include="Steamworks\OHHJAMPEKNK.cs" />
+    <Compile Include="Steamworks\OHPEHCOGCGB.cs" />
+    <Compile Include="Steamworks\OIKLGPHIJCA.cs" />
+    <Compile Include="Steamworks\OJDOCDLCOLN.cs" />
+    <Compile Include="Steamworks\OKBCHCIDNDH.cs" />
+    <Compile Include="Steamworks\OLOEFNPNAFJ.cs" />
+    <Compile Include="Steamworks\ONEEPCAKNAM.cs" />
+    <Compile Include="Steamworks\ONGIAPBBPKG.cs" />
+    <Compile Include="Steamworks\ONLFIIIGHPJ.cs" />
+    <Compile Include="Steamworks\OPJGADPPHII.cs" />
+    <Compile Include="Steamworks\PartyBeaconID_t.cs" />
+    <Compile Include="Steamworks\PBICIHJPOLA.cs" />
+    <Compile Include="Steamworks\PBJIKGGOHFO.cs" />
+    <Compile Include="Steamworks\PCKKPLLBKCF.cs" />
+    <Compile Include="Steamworks\PCNAGCKHGLB.cs" />
+    <Compile Include="Steamworks\PCNBBDLKDBC.cs" />
+    <Compile Include="Steamworks\PCOIIBGAPPE.cs" />
+    <Compile Include="Steamworks\PDGBOPMDPFH.cs" />
+    <Compile Include="Steamworks\PDIDGJGKMDI.cs" />
+    <Compile Include="Steamworks\PDJJNMEHKLP.cs" />
+    <Compile Include="Steamworks\PDMLDOOMFNL.cs" />
+    <Compile Include="Steamworks\PECNKDKLAHN.cs" />
+    <Compile Include="Steamworks\PEGDCLFDECJ.cs" />
+    <Compile Include="Steamworks\PEGHMOLHMBL.cs" />
+    <Compile Include="Steamworks\PEHEJNPCPOH.cs" />
+    <Compile Include="Steamworks\PENJGENHPEI.cs" />
+    <Compile Include="Steamworks\PFAKHFJOCKD.cs" />
+    <Compile Include="Steamworks\PFEJJCECEHO.cs" />
+    <Compile Include="Steamworks\PFLOEHLNKHE.cs" />
+    <Compile Include="Steamworks\PGAFKHGCHBE.cs" />
+    <Compile Include="Steamworks\PGCNPPLGCGI.cs" />
+    <Compile Include="Steamworks\PGGGDHEMECK.cs" />
+    <Compile Include="Steamworks\PHFILJEGLIL.cs" />
+    <Compile Include="Steamworks\PIKBFCCFKON.cs" />
+    <Compile Include="Steamworks\PJGFKACENKD.cs" />
+    <Compile Include="Steamworks\PKIJCNBOGAH.cs" />
+    <Compile Include="Steamworks\PLCJPHEFLNG.cs" />
+    <Compile Include="Steamworks\PLGPFJMBLEI.cs" />
+    <Compile Include="Steamworks\PLNHEOEKBEF.cs" />
+    <Compile Include="Steamworks\PMKDOODINCP.cs" />
+    <Compile Include="Steamworks\PublishedFileId_t.cs" />
+    <Compile Include="Steamworks\PublishedFileUpdateHandle_t.cs" />
+    <Compile Include="Steamworks\RemotePlaySessionID_t.cs" />
+    <Compile Include="Steamworks\RTime32.cs" />
+    <Compile Include="Steamworks\ScreenshotHandle.cs" />
+    <Compile Include="Steamworks\servernetadr_t.cs" />
+    <Compile Include="Steamworks\SNetListenSocket_t.cs" />
+    <Compile Include="Steamworks\SNetSocket_t.cs" />
+    <Compile Include="Steamworks\SteamAPICall_t.cs" />
+    <Compile Include="Steamworks\SteamDatagramHostedAddress.cs" />
+    <Compile Include="Steamworks\SteamDatagramRelayAuthTicket.cs" />
+    <Compile Include="Steamworks\SteamInputActionEvent_t.cs" />
+    <Compile Include="Steamworks\SteamInventoryResult_t.cs" />
+    <Compile Include="Steamworks\SteamInventoryUpdateHandle_t.cs" />
+    <Compile Include="Steamworks\SteamIPAddress_t.cs" />
+    <Compile Include="Steamworks\SteamItemDef_t.cs" />
+    <Compile Include="Steamworks\SteamItemInstanceID_t.cs" />
+    <Compile Include="Steamworks\SteamLeaderboardEntries_t.cs" />
+    <Compile Include="Steamworks\SteamLeaderboard_t.cs" />
+    <Compile Include="Steamworks\SteamNetworkingConfigValue_t.cs" />
+    <Compile Include="Steamworks\SteamNetworkingErrMsg.cs" />
+    <Compile Include="Steamworks\SteamNetworkingIdentity.cs" />
+    <Compile Include="Steamworks\SteamNetworkingIPAddr.cs" />
+    <Compile Include="Steamworks\SteamNetworkingMessage_t.cs" />
+    <Compile Include="Steamworks\SteamNetworkingMicroseconds.cs" />
+    <Compile Include="Steamworks\SteamNetworkingPOPID.cs" />
+    <Compile Include="Steamworks\UGCFileWriteStreamHandle_t.cs" />
+    <Compile Include="Steamworks\UGCHandle_t.cs" />
+    <Compile Include="Steamworks\UGCQueryHandle_t.cs" />
+    <Compile Include="Steamworks\UGCUpdateHandle_t.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476723E}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System\System.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767247}</Project>
+      <Name>System</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.CoreModule\UnityEngine.CoreModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476727E}</Project>
+      <Name>UnityEngine.CoreModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

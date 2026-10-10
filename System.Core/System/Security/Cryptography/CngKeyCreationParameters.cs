@@ -1,0 +1,204 @@
+﻿using System;
+using System.Security.Permissions;
+
+namespace System.Security.Cryptography
+{
+	/// <summary>
+	///         Содержит дополнительные свойства для создания ключа.
+	///       </summary>
+	// Token: 0x02000043 RID: 67
+	[HostProtection(SecurityAction.LinkDemand, MayLeakOnAbort = true)]
+	public sealed class CngKeyCreationParameters
+	{
+		/// <summary>
+		///         Возвращает или задает политику экспорта ключа.
+		///       </summary>
+		/// <returns>
+		///         Объект, задающий политику экспорта ключа.
+		///          Значение по умолчанию — <see langword="null" />, которое указывает, что задана политика экспорта по умолчанию поставщик хранилища ключей.
+		///       </returns>
+		// Token: 0x1700004F RID: 79
+		// (get) Token: 0x06000131 RID: 305 RVA: 0x0000350F File Offset: 0x0000170F
+		// (set) Token: 0x06000132 RID: 306 RVA: 0x00003517 File Offset: 0x00001717
+		public CngExportPolicies? ExportPolicy
+		{
+			get
+			{
+				return this.m_exportPolicy;
+			}
+			set
+			{
+				this.m_exportPolicy = value;
+			}
+		}
+
+		/// <summary>
+		///         Возвращает или задает параметры создания ключа.
+		///       </summary>
+		/// <returns>
+		///         Объект, задающий параметры создания ключа.
+		///          Значение по умолчанию — <see langword="null" />, которое указывает, что заданы параметры создания ключа по умолчанию поставщик хранилища ключей.
+		///       </returns>
+		// Token: 0x17000050 RID: 80
+		// (get) Token: 0x06000133 RID: 307 RVA: 0x00003520 File Offset: 0x00001720
+		// (set) Token: 0x06000134 RID: 308 RVA: 0x00003528 File Offset: 0x00001728
+		public CngKeyCreationOptions KeyCreationOptions
+		{
+			get
+			{
+				return this.m_keyCreationOptions;
+			}
+			set
+			{
+				this.m_keyCreationOptions = value;
+			}
+		}
+
+		/// <summary>
+		///         Возвращает или задает криптографические операции, которые применяются к текущему ключу.
+		///       </summary>
+		/// <returns>
+		///         Побитовое сочетание значений перечисления, определяющих использование ключа.
+		///          Значение по умолчанию — <see langword="null" />, которое указывает, что задано использование ключа по умолчанию поставщик хранилища ключей.
+		///       </returns>
+		// Token: 0x17000051 RID: 81
+		// (get) Token: 0x06000135 RID: 309 RVA: 0x00003531 File Offset: 0x00001731
+		// (set) Token: 0x06000136 RID: 310 RVA: 0x00003539 File Offset: 0x00001739
+		public CngKeyUsages? KeyUsage
+		{
+			get
+			{
+				return this.m_keyUsage;
+			}
+			set
+			{
+				this.m_keyUsage = value;
+			}
+		}
+
+		/// <summary>
+		///         Возвращает или задает дескриптор окна, которое должно использоваться в качестве родительского окна для диалоговых окон, созданные классы криптографии следующего поколения (CNG).
+		///       </summary>
+		/// <returns>
+		///         HWND родительского окна, используемый для диалоговых окон CNG.
+		///       </returns>
+		// Token: 0x17000052 RID: 82
+		// (get) Token: 0x06000137 RID: 311 RVA: 0x00003542 File Offset: 0x00001742
+		// (set) Token: 0x06000138 RID: 312 RVA: 0x0000354A File Offset: 0x0000174A
+		public IntPtr ParentWindowHandle
+		{
+			get
+			{
+				return this.m_parentWindowHandle;
+			}
+			[SecuritySafeCritical]
+			[SecurityPermission(SecurityAction.Demand, UnmanagedCode = true)]
+			set
+			{
+				this.m_parentWindowHandle = value;
+			}
+		}
+
+		/// <summary>
+		///         Позволяет <see cref="T:System.Security.Cryptography.CngKey" /> объекта с дополнительными свойствами, которые устанавливаются до завершения ключ.
+		///       </summary>
+		/// <returns>
+		///         Объект коллекции, содержащий любые дополнительные параметры, которые должны быть установлены на <see cref="T:System.Security.Cryptography.CngKey" /> объекта во время создания ключа.
+		///       </returns>
+		// Token: 0x17000053 RID: 83
+		// (get) Token: 0x06000139 RID: 313 RVA: 0x00003553 File Offset: 0x00001753
+		public CngPropertyCollection Parameters
+		{
+			[SecuritySafeCritical]
+			[SecurityPermission(SecurityAction.Demand, UnmanagedCode = true)]
+			get
+			{
+				return this.m_parameters;
+			}
+		}
+
+		// Token: 0x17000054 RID: 84
+		// (get) Token: 0x0600013A RID: 314 RVA: 0x00003553 File Offset: 0x00001753
+		internal CngPropertyCollection ParametersNoDemand
+		{
+			get
+			{
+				return this.m_parameters;
+			}
+		}
+
+		/// <summary>
+		///         Возвращает или задает поставщике хранилища ключей (KSP), для создания ключа.
+		///       </summary>
+		/// <returns>
+		///         Объект, задающий KSP, в котором будет создан новый ключ в.
+		///       </returns>
+		/// <exception cref="T:System.ArgumentNullException">
+		///             <see cref="P:System.Security.Cryptography.CngKeyCreationParameters.Provider" /> Свойству <see langword="null" /> значение.
+		///           </exception>
+		// Token: 0x17000055 RID: 85
+		// (get) Token: 0x0600013B RID: 315 RVA: 0x0000355B File Offset: 0x0000175B
+		// (set) Token: 0x0600013C RID: 316 RVA: 0x00003563 File Offset: 0x00001763
+		public CngProvider Provider
+		{
+			get
+			{
+				return this.m_provider;
+			}
+			set
+			{
+				if (value == null)
+				{
+					throw new ArgumentNullException("value");
+				}
+				this.m_provider = value;
+			}
+		}
+
+		/// <summary>
+		///         Возвращает или задает сведения о пользовательском интерфейсе для отображения при создании или получить ключ.
+		///       </summary>
+		/// <returns>
+		///         Объект, содержащий сведения о пользовательском интерфейсе, показаны классы криптографии следующего поколения (CNG) при создании или получить ключ.
+		///          A <see langword="null" /> значение указывает, что задана политика интерфейса пользователя по умолчанию поставщик хранилища ключей.
+		///       </returns>
+		// Token: 0x17000056 RID: 86
+		// (get) Token: 0x0600013D RID: 317 RVA: 0x00003580 File Offset: 0x00001780
+		// (set) Token: 0x0600013E RID: 318 RVA: 0x00003588 File Offset: 0x00001788
+		public CngUIPolicy UIPolicy
+		{
+			get
+			{
+				return this.m_uiPolicy;
+			}
+			[SecuritySafeCritical]
+			[HostProtection(SecurityAction.LinkDemand, UI = true)]
+			[UIPermission(SecurityAction.Demand, Window = UIPermissionWindow.SafeSubWindows)]
+			set
+			{
+				this.m_uiPolicy = value;
+			}
+		}
+
+		// Token: 0x04000316 RID: 790
+		private CngExportPolicies? m_exportPolicy;
+
+		// Token: 0x04000317 RID: 791
+		private CngKeyCreationOptions m_keyCreationOptions;
+
+		// Token: 0x04000318 RID: 792
+		private CngKeyUsages? m_keyUsage;
+
+		// Token: 0x04000319 RID: 793
+		private CngPropertyCollection m_parameters = new CngPropertyCollection();
+
+		// Token: 0x0400031A RID: 794
+		private IntPtr m_parentWindowHandle;
+
+		// Token: 0x0400031B RID: 795
+		private CngProvider m_provider = CngProvider.MicrosoftSoftwareKeyStorageProvider;
+
+		// Token: 0x0400031C RID: 796
+		private CngUIPolicy m_uiPolicy;
+	}
+}

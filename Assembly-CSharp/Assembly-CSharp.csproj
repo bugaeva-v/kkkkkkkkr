@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1FA9BA0-F995-4C77-8C0E-90EB4476722E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AAGADILJKBJ.cs" />
+    <Compile Include="AALKHJPOBCM.cs" />
+    <Compile Include="ABJCFBILHGF.cs" />
+    <Compile Include="ABLEFBBIBNB.cs" />
+    <Compile Include="ABNHFKAOGPO.cs" />
+    <Compile Include="AccountForgetManager.cs" />
+    <Compile Include="AccountSignInManager.cs" />
+    <Compile Include="AchievementsManagerSteam.cs" />
+    <Compile Include="AdsManager.cs" />
+    <Compile Include="AdsManagerLP.cs" />
+    <Compile Include="AdUnitManager.cs" />
+    <Compile Include="AFGEGEFJFHN.cs" />
+    <Compile Include="AFIBCKPKDHB.cs" />
+    <Compile Include="AGAFMAAGGEK.cs" />
+    <Compile Include="AGEHCPDNBFD.cs" />
+    <Compile Include="AGMLPBHEPGP.cs" />
+    <Compile Include="AGNOEOKAFHL.cs" />
+    <Compile Include="AHJKKJIBIIJ.cs" />
+    <Compile Include="AIEIBBHCAMH.cs" />
+    <Compile Include="AKLFMGKJLJN.cs" />
+    <Compile Include="AKLFPGMDKLA.cs" />
+    <Compile Include="AKLOMMOOFNG.cs" />
+    <Compile Include="AKNNGFCMEEA.cs" />
+    <Compile Include="ALAELCDLPCP.cs" />
+    <Compile Include="ALPHHLOPBLC.cs" />
+    <Compile Include="AMAJHPOEPOI.cs" />
+    <Compile Include="AMGALGOMMDF.cs" />
+    <Compile Include="AMMHDNONFHM.cs" />
+    <Compile Include="AnalyticsScreenTracker.cs" />
+    <Compile Include="AnimatedPopupManager.cs" />
+    <Compile Include="AnimationButtonFlash.cs" />
+    <Compile Include="AnimationCanvasGroupAlpha.cs" />
+    <Compile Include="AnimationCanvasGroupAlphaClone.cs" />
+    <Compile Include="AnimationCanvasGroupAlphaCloneWithVisibility.cs" />
+    <Compile Include="AnimationCanvasGroupAlphaLightning.cs" />
+    <Compile Include="AnimationCanvasGroupAlphaPreset.cs" />
+    <Compile Include="AnimationCanvasGroupAlphaSignalLight.cs" />
+    <Compile Include="AnimationClipperboard.cs" />
+    <Compile Include="AnimationClouds.cs" />
+    <Compile Include="AnimationMovieShootTime.cs" />
+    <Compile Include="AnimationParticleSystemCutoff.cs" />
+    <Compile Include="AnimationPress.cs" />
+    <Compile Include="AnimationRotation.cs" />
+    <Compile Include="AnimationScale.cs" />
+    <Compile Include="AnimationShake.cs" />
+    <Compile Include="AnimationTextIncrement.cs" />
+    <Compile Include="AnimationTextType.cs" />
+    <Compile Include="AnimationTranslation.cs" />
+    <Compile Include="AnimationTranslationPreset.cs" />
+    <Compile Include="ANLOFHPPBLC.cs" />
+    <Compile Include="ANOALPEBPEB.cs" />
+    <Compile Include="AOBJLALDBAA.cs" />
+    <Compile Include="AOHBGKKOMGD.cs" />
+    <Compile Include="APNIHJMGNIM.cs" />
+    <Compile Include="App42Manager.cs" />
+    <Compile Include="AppleSignInManager.cs" />
+    <Compile Include="ApplicationFocusManager.cs" />
+    <Compile Include="AppManager.cs" />
+    <Compile Include="AppsFlyerManagerBridge.cs" />
+    <Compile Include="AppsFlyerManagerSteam.cs" />
+    <Compile Include="AppsFlyerManagerUnity.cs" />
+    <Compile Include="AppTrackingTransparency.cs" />
+    <Compile Include="AssetAnthology.cs" />
+    <Compile Include="AssetAnthologyAvatarHeader.cs" />
+    <Compile Include="AssetAnthologyHeader.cs" />
+    <Compile Include="AssetAnthologyPreview.cs" />
+    <Compile Include="AssetAnthologyPreview2.cs" />
+    <Compile Include="AssetAvatarComponent.cs" />
+    <Compile Include="AssetAvatarComponentEmotionDesc.cs" />
+    <Compile Include="AssetAvatarExtension.cs" />
+    <Compile Include="AssetAvatarExtensionAztecRing.cs" />
+    <Compile Include="AssetAvatarExtensionPack.cs" />
+    <Compile Include="AssetAvatarExtensionPackHeader.cs" />
+    <Compile Include="AssetAvatarPack.cs" />
+    <Compile Include="AssetAvatarPackHeader.cs" />
+    <Compile Include="AssetBundles\AssetBundleManager.cs" />
+    <Compile Include="AssetBundles\CHCFCOKNLOE.cs" />
+    <Compile Include="AssetBundles\CHGCPKLJDJH.cs" />
+    <Compile Include="AssetBundles\DAJHCGFBHMO.cs" />
+    <Compile Include="AssetBundles\FIEAHFNJIEE.cs" />
+    <Compile Include="AssetBundles\GCFIOHOKPPN.cs" />
+    <Compile Include="AssetBundles\HEBGNIBEJLG.cs" />
+    <Compile Include="AssetBundles\HHDINCAJHDF.cs" />
+    <Compile Include="AssetBundles\IAPJLKACLJF.cs" />
+    <Compile Include="AssetBundles\IHGHMPLKFGG.cs" />
+    <Compile Include="AssetBundles\JANJJAOKJJP.cs" />
+    <Compile Include="AssetBundles\KFAMJDIMIFN.cs" />
+    <Compile Include="AssetBundles\KLEDODLIFLK.cs" />
+    <Compile Include="AssetBundles\LKBEFCALCCC.cs" />
+    <Compile Include="AssetBundles\LOKAMLMIIAA.cs" />
+    <Compile Include="AssetBundles\NEMPDPJNKFN.cs" />
+    <Compile Include="AssetBundles\NPOILPKELOJ.cs" />
+    <Compile Include="AssetBundles\PLOGDOACBMK.cs" />
+    <Compile Include="AssetCdnDepot.cs" />
+    <Compile Include="AssetCdnDepot2.cs" />
+    <Compile Include="AssetCdnHost.cs" />
+    <Compile Include="AssetCdnSubDepot.cs" />
+    <Compile Include="AssetCollectableCard.cs" />
+    <Compile Include="AssetCustomEffects.cs" />
+    <Compile Include="AssetCustomFader.cs" />
+    <Compile Include="AssetFrameContainer.cs" />
+    <Compile Include="AssetHeadersPack.cs" />
+    <Compile Include="AssetHeadersPack2.cs" />
+    <Compile Include="AssetIconsPack.cs" />
+    <Compile Include="AssetKeepAlivePack.cs" />
+    <Compile Include="AssetLiveEvent.cs" />
+    <Compile Include="AssetLiveEventContent.cs" />
+    <Compile Include="AssetLiveEventContentCustomLanguageLogoOffset.cs" />
+    <Compile Include="AssetLiveOffer.cs" />
+    <Compile Include="AssetLiveOfferContent.cs" />
+    <Compile Include="AssetLiveProfileTheme.cs" />
+    <Compile Include="AssetLobbyData.cs" />
+    <Compile Include="AssetLobbyData2.cs" />
+    <Compile Include="AssetProfileData.cs" />
+    <Compile Include="AssetProfileData2.cs" />
+    <Compile Include="AssetProfileData3.cs" />
+    <Compile Include="AssetProfileData4.cs" />
+    <Compile Include="AssetProfileData5.cs" />
+    <Compile Include="AssetProfileData6.cs" />
+    <Compile Include="AssetProfileDataLocalized.cs" />
+    <Compile Include="AssetProfilePack.cs" />
+    <Compile Include="AssetSketchActors.cs" />
+    <Compile Include="AssetSketchesData.cs" />
+    <Compile Include="AssetSketchThumbnail.cs" />
+    <Compile Include="AssetsManager.cs" />
+    <Compile Include="AssetStoryHeader.cs" />
+    <Compile Include="AssetStoryInkHeader.cs" />
+    <Compile Include="AssetStoryItem.cs" />
+    <Compile Include="AssetStoryItemAnimation.cs" />
+    <Compile Include="AssetStoryNpc.cs" />
+    <Compile Include="AssetStoryNpcAnimation.cs" />
+    <Compile Include="AssetStoryNpcAnimationEmotionDesc.cs" />
+    <Compile Include="AssetStoryNpcAnimationPropDesc.cs" />
+    <Compile Include="AssetStoryNpcEmotionDesc.cs" />
+    <Compile Include="AssetStorySplashHeader.cs" />
+    <Compile Include="AssetTextPack.cs" />
+    <Compile Include="AudioContainer.cs" />
+    <Compile Include="AudioManager.cs" />
+    <Compile Include="AudioSourcePlayer.cs" />
+    <Compile Include="AvatarCollectionObject.cs" />
+    <Compile Include="AvatarCollectionsFadeManager.cs" />
+    <Compile Include="AvatarCollectionsItem.cs" />
+    <Compile Include="AvatarCollectionsNotificationDismissOnClick.cs" />
+    <Compile Include="AvatarComponentDependencyDesc.cs" />
+    <Compile Include="AvatarNameResolver.cs" />
+    <Compile Include="AvatarScreenNotificationManager.cs" />
+    <Compile Include="BAAFDFAEKIH.cs" />
+    <Compile Include="BackendOperationsManager.cs" />
+    <Compile Include="BDACKNLJJOI.cs" />
+    <Compile Include="BDOKIPMKPLH.cs" />
+    <Compile Include="BEEDEKAIFEL.cs" />
+    <Compile Include="BELMEMPLMGE.cs" />
+    <Compile Include="BFNCOLBCJCP.cs" />
+    <Compile Include="BGDLJKJPOOO.cs" />
+    <Compile Include="BGHLMGPPCNN.cs" />
+    <Compile Include="BHHJENAAKLH.cs" />
+    <Compile Include="BHNHEHIFODG.cs" />
+    <Compile Include="BIDPEOLOIIG.cs" />
+    <Compile Include="Billboard.cs" />
+    <Compile Include="BJLOPKGCMNI.cs" />
+    <Compile Include="BKBCKPMDFOD.cs" />
+    <Compile Include="BKDLCCGIFFK.cs" />
+    <Compile Include="BNBALHAPMBK.cs" />
+    <Compile Include="BNFCLKNDBLO.cs" />
+    <Compile Include="BOPBCIBJLAN.cs" />
+    <Compile Include="BPBCEIJBEEK.cs" />
+    <Compile Include="BPDELFMFBJF.cs" />
+    <Compile Include="CAHKIOGAFGO.cs" />
+    <Compile Include="CardItem.cs" />
+    <Compile Include="CBELMCEIMOB.cs" />
+    <Compile Include="CBKCEDKJDMJ.cs" />
+    <Compile Include="CCEMAFOMLLK.cs" />
+    <Compile Include="CCOJBMMKNAP.cs" />
+    <Compile Include="CEEIOOODMKK.cs" />
+    <Compile Include="CEIBHCNNIDC.cs" />
+    <Compile Include="CFAMJFEPAAG.cs" />
+    <Compile Include="CFNCBCLEGBC.cs" />
+    <Compile Include="ChapterSnapshotObject.cs" />
+    <Compile Include="ChapterSnapshotsItem.cs" />
+    <Compile Include="CharacterRenderTexturePool.cs" />
+    <Compile Include="CHEEGEJNIDB.cs" />
+    <Compile Include="CHFCDOAMNKH.cs" />
+    <Compile Include="CHGMJKIAOLJ.cs" />
+    <Compile Include="ChoiceExtendedManager.cs" />
+    <Compile Include="ChoiceExtendedOneToManyManager.cs" />
+    <Compile Include="ChoicePremiumManager.cs" />
+    <Compile Include="ChoiceStandardManager.cs" />
+    <Compile Include="ChoiceStatManager.cs" />
+    <Compile Include="CJEKEHDEBLM.cs" />
+    <Compile Include="CKBCHMOAKLK.cs" />
+    <Compile Include="CKJNHELNAFB.cs" />
+    <Compile Include="CLGFGOHBCGJ.cs" />
+    <Compile Include="CLHDENLPOFP.cs" />
+    <Compile Include="CMCMEJMOPEC.cs" />
+    <Compile Include="CMOLLGLINGG.cs" />
+    <Compile Include="COIACILKKDE.cs" />
+    <Compile Include="CommonUserInterface.cs" />
+    <Compile Include="ContentAchievementItem.cs" />
+    <Compile Include="ContentAnthologyAchievementGridItem.cs" />
+    <Compile Include="ContentAnthologyAchievementsItem.cs" />
+    <Compile Include="ContentAvatarPage.cs" />
+    <Compile Include="ContentBadgeItem.cs" />
+    <Compile Include="ContentCardItem.cs" />
+    <Compile Include="ContentChatItem.cs" />
+    <Compile Include="ContentChatPage.cs" />
+    <Compile Include="ContentCusceneSmallItem.cs" />
+    <Compile Include="ContentCutsceneItem.cs" />
+    <Compile Include="ContentFavoriteItem.cs" />
+    <Compile Include="ContentFlexibleText.cs" />
+    <Compile Include="ContentFriendItem.cs" />
+    <Compile Include="ContentFriendsPage.cs" />
+    <Compile Include="ContentGiftItem.cs" />
+    <Compile Include="ContentGridItem.cs" />
+    <Compile Include="ContentHallOfFameItem.cs" />
+    <Compile Include="ContentHallOfFamePage.cs" />
+    <Compile Include="ContentHeader.cs" />
+    <Compile Include="ContentScrollItemHider.cs" />
+    <Compile Include="ContentTopMatchItem.cs" />
+    <Compile Include="CoverCardItem.cs" />
+    <Compile Include="CPFJIACDGEP.cs" />
+    <Compile Include="CreatorThumbnail.cs" />
+    <Compile Include="CustomAvatarFilteringOptions.cs" />
+    <Compile Include="CustomFaderSettings.cs" />
+    <Compile Include="CustomWardrobeSettings.cs" />
+    <Compile Include="CutsceneViewManager.cs" />
+    <Compile Include="DAMCJCDKOJK.cs" />
+    <Compile Include="DAPOEDKKAIA.cs" />
+    <Compile Include="DBONHDHEKDG.cs" />
+    <Compile Include="DCAIAAIOOEI.cs" />
+    <Compile Include="DCJDBLGMKJK.cs" />
+    <Compile Include="DebugSettings.cs" />
+    <Compile Include="DeviceIDs.cs" />
+    <Compile Include="DeviceResolutionAndOrientationChangeListener.cs" />
+    <Compile Include="DFFNHBJMFMP.cs" />
+    <Compile Include="DFGILFBGPLN.cs" />
+    <Compile Include="DFKBHGBFNHB.cs" />
+    <Compile Include="DG\Tweening\DOTweenAnimation.cs" />
+    <Compile Include="DG\Tweening\DOTweenAnimationExtensions.cs" />
+    <Compile Include="DHADKGOGGOK.cs" />
+    <Compile Include="DHFLKLPKNJG.cs" />
+    <Compile Include="DHGFCJGJFOB.cs" />
+    <Compile Include="DHJPAFCHGHL.cs" />
+    <Compile Include="DialogItemFoundManager.cs" />
+    <Compile Include="DialogItemShownFullscreenManager.cs" />
+    <Compile Include="DialogItemShownManager.cs" />
+    <Compile Include="DialogItemUsedManager.cs" />
+    <Compile Include="DialogNarratorManager.cs" />
+    <Compile Include="DialogNonPlayerCharacterManager.cs" />
+    <Compile Include="DialogPlayerCharacterManager.cs" />
+    <Compile Include="DialogReadInputManager.cs" />
+    <Compile Include="DialogTitleManager.cs" />
+    <Compile Include="DIFKIAHHPJP.cs" />
+    <Compile Include="DILMKCBFMIG.cs" />
+    <Compile Include="DIMDLMAMCED.cs" />
+    <Compile Include="DisableObjectAwake.cs" />
+    <Compile Include="DLMFPOPODPN.cs" />
+    <Compile Include="DMDNKJKEPKO.cs" />
+    <Compile Include="DNFBGCGNLKA.cs" />
+    <Compile Include="DNPIKPDMKKI.cs" />
+    <Compile Include="DOLBFGIPPOG.cs" />
+    <Compile Include="DontDestroyOnLoad.cs" />
+    <Compile Include="DPGBGCPCPGL.cs" />
+    <Compile Include="DPGJIJGOCIC.cs" />
+    <Compile Include="DPPMPNEOPNF.cs" />
+    <Compile Include="EAALFDOPIAF.cs" />
+    <Compile Include="EAFFJFDFDOM.cs" />
+    <Compile Include="EAFPOMNMOFP.cs" />
+    <Compile Include="EBFHKCOGJLB.cs" />
+    <Compile Include="EBPDOCELHBN.cs" />
+    <Compile Include="ECAPOEGMMIB.cs" />
+    <Compile Include="ECJCFGAOPHJ.cs" />
+    <Compile Include="EDKPLPNPCEG.cs" />
+    <Compile Include="EEFFGAGEPJJ.cs" />
+    <Compile Include="EEIBKLDNBAP.cs" />
+    <Compile Include="EELCJOKFHHC.cs" />
+    <Compile Include="EFKIAFDJBOE.cs" />
+    <Compile Include="EGBNGOMIJEE.cs" />
+    <Compile Include="EGMCEPOABBF.cs" />
+    <Compile Include="EICLEMCHODB.cs" />
+    <Compile Include="EIOPLEFLLIM.cs" />
+    <Compile Include="EJDDNONEDNM.cs" />
+    <Compile Include="EKNEIBDDNKF.cs" />
+    <Compile Include="EKOPCOHPOFG.cs" />
+    <Compile Include="ELFBAKJMBOA.cs" />
+    <Compile Include="EnvCaptureBlit.cs" />
+    <Compile Include="EnvironmentMorphManager.cs" />
+    <Compile Include="EnvironmentSettings.cs" />
+    <Compile Include="EOJDHDECPFO.cs" />
+    <Compile Include="EPAGGJIALMP.cs" />
+    <Compile Include="EPHDCPKJLHP.cs" />
+    <Compile Include="Etc1AlphaSplitManager.cs" />
+    <Compile Include="FACEBAPIEEL.cs" />
+    <Compile Include="FacebookManager.cs" />
+    <Compile Include="FACIPHCKHJM.cs" />
+    <Compile Include="FaderManager.cs" />
+    <Compile Include="FADIGFEOCND.cs" />
+    <Compile Include="FANFNBCJJDA.cs" />
+    <Compile Include="FBBLJMGNEMM.cs" />
+    <Compile Include="FBFJEIPLFIP.cs" />
+    <Compile Include="FBIJKLKEIIN.cs" />
+    <Compile Include="FCABOFEGPGP.cs" />
+    <Compile Include="FEMKDIHKJCM.cs" />
+    <Compile Include="FFHLPKAFOKH.cs" />
+    <Compile Include="FFIAHOPJJJG.cs" />
+    <Compile Include="FFPHBMFGCNN.cs" />
+    <Compile Include="FGECAAAJCFB.cs" />
+    <Compile Include="FGINKFGNNEK.cs" />
+    <Compile Include="FHAJAGIMLLJ.cs" />
+    <Compile Include="FHHNOOKHGCE.cs" />
+    <Compile Include="FHNCFMMBDPF.cs" />
+    <Compile Include="FIGIKDMPGCI.cs" />
+    <Compile Include="FilterItem.cs" />
+    <Compile Include="FirebaseAnalyticsManager.cs" />
+    <Compile Include="FJLGCKNOJMJ.cs" />
+    <Compile Include="FJOIFOINENC.cs" />
+    <Compile Include="FKEMPHIFKNI.cs" />
+    <Compile Include="FKILHBFLCFC.cs" />
+    <Compile Include="FlagAnimator.cs" />
+    <Compile Include="FLDBFOADFLH.cs" />
+    <Compile Include="FLNOFHCNJDM.cs" />
+    <Compile Include="FLODDPAJCAP.cs" />
+    <Compile Include="FocusItem.cs" />
+    <Compile Include="FOJAGMPBLGJ.cs" />
+    <Compile Include="FPEHHFKFBJK.cs" />
+    <Compile Include="FPEOCIGDBKK.cs" />
+    <Compile Include="FPFNLJGEIJK.cs" />
+    <Compile Include="FPHIPLMOLID.cs" />
+    <Compile Include="FPKIKNDMCKA.cs" />
+    <Compile Include="FriendsLetterPopupManager.cs" />
+    <Compile Include="FriendsMessagePopupManager.cs" />
+    <Compile Include="FriendsPopupManager.cs" />
+    <Compile Include="FSG\iOSKeychain\FPFEKLPJBOB.cs" />
+    <Compile Include="FSG\iOSKeychain\KeychainDebug.cs" />
+    <Compile Include="FSG\Utilities\DFKPELFEPFH.cs" />
+    <Compile Include="FullscreenLiveOfferManager.cs" />
+    <Compile Include="GADABGOBJIM.cs" />
+    <Compile Include="GANPAGHHNOD.cs" />
+    <Compile Include="GBGJNJIPNNL.cs" />
+    <Compile Include="GCFLILHCOEI.cs" />
+    <Compile Include="GCHKBABPNFC.cs" />
+    <Compile Include="GDAOFOFBLPF.cs" />
+    <Compile Include="GDJPPKAMIFL.cs" />
+    <Compile Include="GDOKLFCLLIK.cs" />
+    <Compile Include="GEGBHOMKNDF.cs" />
+    <Compile Include="GenericPopupManager.cs" />
+    <Compile Include="GeoLocationManager.cs" />
+    <Compile Include="GFEJBOAKPMP.cs" />
+    <Compile Include="GGAHKHBFKDA.cs" />
+    <Compile Include="GGLBEJPMALN.cs" />
+    <Compile Include="GHMINFEGBGN.cs" />
+    <Compile Include="GHOKLALLIID.cs" />
+    <Compile Include="GICFHALNBOI.cs" />
+    <Compile Include="GJHAJJIICDN.cs" />
+    <Compile Include="GJOKHFODCCI.cs" />
+    <Compile Include="GKDCPMFMPMO.cs" />
+    <Compile Include="GKJPOGNFKNK.cs" />
+    <Compile Include="GLANJHGJNNB.cs" />
+    <Compile Include="GLDNGEEJAHP.cs" />
+    <Compile Include="GleyPushNotifications\FGJLDDFIHPE.cs" />
+    <Compile Include="GleyPushNotifications\NotificationManager.cs" />
+    <Compile Include="GleyPushNotifications\NotificationSettings.cs" />
+    <Compile Include="GlitchEffect.cs" />
+    <Compile Include="GMCONLNPLGE.cs" />
+    <Compile Include="GNKBFDPLGOE.cs" />
+    <Compile Include="GOAEAMLNFOC.cs" />
+    <Compile Include="GOCBEOKKPDL.cs" />
+    <Compile Include="GooglePlayServicesManager.cs" />
+    <Compile Include="GPHJFMCAMEA.cs" />
+    <Compile Include="GridController.cs" />
+    <Compile Include="HADNEFMHLED.cs" />
+    <Compile Include="HAGEHPPOPGH.cs" />
+    <Compile Include="HAKFHALKMBH.cs" />
+    <Compile Include="HBKMKCBPJDI.cs" />
+    <Compile Include="HBLMDECIAHI.cs" />
+    <Compile Include="HDFJIFIDBDA.cs" />
+    <Compile Include="HDKFHLFLDGG.cs" />
+    <Compile Include="HDTrigger.cs" />
+    <Compile Include="HDTriggerPostProcess.cs" />
+    <Compile Include="HeaderNotchManager.cs" />
+    <Compile Include="HECEJCDAIOJ.cs" />
+    <Compile Include="HECMIBFLKMM.cs" />
+    <Compile Include="HEGNCPKIFKM.cs" />
+    <Compile Include="HEIBLHGMPLD.cs" />
+    <Compile Include="HEIDEJOPKAA.cs" />
+    <Compile Include="HFDAGKJJHOA.cs" />
+    <Compile Include="HGCFJKCOKPM.cs" />
+    <Compile Include="HGJINNBJPKJ.cs" />
+    <Compile Include="HHCKLPJJKIJ.cs" />
+    <Compile Include="HideGameObjectForCensoredBuild.cs" />
+    <Compile Include="HideGameObjectForDeviceTierHigh.cs" />
+    <Compile Include="HideGameObjectForDeviceTierLow.cs" />
+    <Compile Include="HideGameObjectForDeviceTierMid.cs" />
+    <Compile Include="HideGameObjectForGamePerformanceModeLite.cs" />
+    <Compile Include="HideGameObjectForLanguage.cs" />
+    <Compile Include="HideGameObjectForPlatform.cs" />
+    <Compile Include="HideImageAlphaForDeviceTierHigh.cs" />
+    <Compile Include="HideImageAlphaForDeviceTierLow.cs" />
+    <Compile Include="HideImageAlphaForDeviceTierMid.cs" />
+    <Compile Include="HIHOFCENBBP.cs" />
+    <Compile Include="HIOOJLFHBAH.cs" />
+    <Compile Include="HJEEGEOCEGI.cs" />
+    <Compile Include="HJPFHJELFCB.cs" />
+    <Compile Include="HKCCMACFNEO.cs" />
+    <Compile Include="HKLPEDKJGFC.cs" />
+    <Compile Include="HKPBEDBPHNJ.cs" />
+    <Compile Include="HLDNEMHDEDH.cs" />
+    <Compile Include="HLIEMKBHHLB.cs" />
+    <Compile Include="HMGFCPHOIKO.cs" />
+    <Compile Include="HNFFEAEMEED.cs" />
+    <Compile Include="HNIBKBPOCJG.cs" />
+    <Compile Include="HOHEIFDCPMF.cs" />
+    <Compile Include="HOMHOEOKIOB.cs" />
+    <Compile Include="HPEFPHOKGLJ.cs" />
+    <Compile Include="HPKJCKOHAAI.cs" />
+    <Compile Include="ICBGGEGIPPB.cs" />
+    <Compile Include="ICGCJJLADEG.cs" />
+    <Compile Include="IDMFLDBGAEE.cs" />
+    <Compile Include="IEHFGLEPEJO.cs" />
+    <Compile Include="IEPEFGOCFAF.cs" />
+    <Compile Include="IGBLCIEDOBE.cs" />
+    <Compile Include="IGCNHEDDNGD.cs" />
+    <Compile Include="IGMOFFJDEAK.cs" />
+    <Compile Include="IIHCCPLGGHP.cs" />
+    <Compile Include="IIOLDNNPIFP.cs" />
+    <Compile Include="IJKJHDGGAEB.cs" />
+    <Compile Include="IJLJDFKJIJM.cs" />
+    <Compile Include="IJOKIIKBDLI.cs" />
+    <Compile Include="IKICLNCOBMC.cs" />
+    <Compile Include="ILCFDPELMMG.cs" />
+    <Compile Include="ILHOIOKDMMD.cs" />
+    <Compile Include="ImageEffectsSelector.cs" />
+    <Compile Include="ImageEffectsSelectorOvr.cs" />
+    <Compile Include="ImageFrameAnimation.cs" />
+    <Compile Include="IMBBHEGNCFP.cs" />
+    <Compile Include="IMBLFHMKMAD.cs" />
+    <Compile Include="IMMKFHKEEBF.cs" />
+    <Compile Include="INBFGLCMEBN.cs" />
+    <Compile Include="INKADLHKELF.cs" />
+    <Compile Include="INPPHKFPFLO.cs" />
+    <Compile Include="IOCAAABPDJH.cs" />
+    <Compile Include="IOGOGMEJCIK.cs" />
+    <Compile Include="IPAddressManager.cs" />
+    <Compile Include="IPEBDNGCDBJ.cs" />
+    <Compile Include="IPJEBHDFOKM.cs" />
+    <Compile Include="IPPJMENKOFC.cs" />
+    <Compile Include="ItemHider.cs" />
+    <Compile Include="JABCGEIIPEI.cs" />
+    <Compile Include="JAMPPNPOJJG.cs" />
+    <Compile Include="JBBNEEHANHL.cs" />
+    <Compile Include="JBONAGNDJGI.cs" />
+    <Compile Include="JCAJMGJFHBD.cs" />
+    <Compile Include="JCAPGCCNOMP.cs" />
+    <Compile Include="JCJHFJGPCCJ.cs" />
+    <Compile Include="JDMAEBPEIBE.cs" />
+    <Compile Include="JEMCPBFKKJE.cs" />
+    <Compile Include="JFCBIAFCKPK.cs" />
+    <Compile Include="JFGBECHLPGI.cs" />
+    <Compile Include="JGBKPOAJPEK.cs" />
+    <Compile Include="JGLMNGOLBIG.cs" />
+    <Compile Include="JGPDDHLGCJC.cs" />
+    <Compile Include="JGPMLOAKFGC.cs" />
+    <Compile Include="JHOEPBJLDOH.cs" />
+    <Compile Include="JIMEADEBKFF.cs" />
+    <Compile Include="JJBCFINBFKL.cs" />
+    <Compile Include="JJOGPAOHPKC.cs" />
+    <Compile Include="JKFDGJEMAMP.cs" />
+    <Compile Include="JLDJNIGMHLC.cs" />
+    <Compile Include="JLHBIPMDLNH.cs" />
+    <Compile Include="JLINKDNLADM.cs" />
+    <Compile Include="JMEAPEMDGMH.cs" />
+    <Compile Include="JMIKCLKNIJO.cs" />
+    <Compile Include="JMPCBLPMAGG.cs" />
+    <Compile Include="JNDBKHJGEMC.cs" />
+    <Compile Include="JPCOGBMHOCI.cs" />
+    <Compile Include="KAKODAHAJKD.cs" />
+    <Compile Include="KAOGJBKPFHE.cs" />
+    <Compile Include="KAPNKGFMPDC.cs" />
+    <Compile Include="KBACNADIIDP.cs" />
+    <Compile Include="KBBHKOGFDFL.cs" />
+    <Compile Include="KBEMFPIGLJF.cs" />
+    <Compile Include="KBOJLHAJPCP.cs" />
+    <Compile Include="KCCIIMHFAKH.cs" />
+    <Compile Include="KDCJJBLGCBH.cs" />
+    <Compile Include="KEFOLACHFHL.cs" />
+    <Compile Include="KeychainPluginPath.cs" />
+    <Compile Include="KFBPJLBMEGG.cs" />
+    <Compile Include="KFIHMMIGPLO.cs" />
+    <Compile Include="KGDFLLFLIPM.cs" />
+    <Compile Include="KGIEDHDALBM.cs" />
+    <Compile Include="KGLBKJKNPFD.cs" />
+    <Compile Include="KGLMPKPMPDN.cs" />
+    <Compile Include="KHBLFKIDHPH.cs" />
+    <Compile Include="KHPGPLAMAIN.cs" />
+    <Compile Include="KIMAEDGOGEF.cs" />
+    <Compile Include="Kino\AnalogGlitch.cs" />
+    <Compile Include="Kino\AnalogGlitch20.cs" />
+    <Compile Include="Kino\DigitalGlitch.cs" />
+    <Compile Include="KIOOJMGLCLC.cs" />
+    <Compile Include="KIPEMGKHALH.cs" />
+    <Compile Include="KKDFIHILCCD.cs" />
+    <Compile Include="KKLFGEHAMMC.cs" />
+    <Compile Include="KLBEJFFDDGN.cs" />
+    <Compile Include="KLJCEMBNKNI.cs" />
+    <Compile Include="KLMEAFCEKOI.cs" />
+    <Compile Include="KODCEBPPCMK.cs" />
+    <Compile Include="KPGLEKJJAGH.cs" />
+    <Compile Include="KPIECDKKDKF.cs" />
+    <Compile Include="LanguageManager.cs" />
+    <Compile Include="LayoutMaxWidth.cs" />
+    <Compile Include="LCAJAHHLNJN.cs" />
+    <Compile Include="LDLLJFOJCDF.cs" />
+    <Compile Include="LDPKIDKFDKG.cs" />
+    <Compile Include="LEJKDNAGDHC.cs" />
+    <Compile Include="LFIBINADNJI.cs" />
+    <Compile Include="LFOLOKPIPHB.cs" />
+    <Compile Include="LGAADGMPCLJ.cs" />
+    <Compile Include="LHBFJJIJNMI.cs" />
+    <Compile Include="LHLIOHJNMFE.cs" />
+    <Compile Include="LIFHPKOLIGL.cs" />
+    <Compile Include="LiveEventsManager.cs" />
+    <Compile Include="LJFIKKKBMDG.cs" />
+    <Compile Include="LJLAENEAOIM.cs" />
+    <Compile Include="LJNJPNBNDJJ.cs" />
+    <Compile Include="LJNMIPMNOKF.cs" />
+    <Compile Include="LLNGEIMFHBB.cs" />
+    <Compile Include="LMFMICLNHLO.cs" />
+    <Compile Include="LMHHKDFCKFC.cs" />
+    <Compile Include="LMIJCBDNGIK.cs" />
+    <Compile Include="LNDOOJOFFOM.cs" />
+    <Compile Include="LNEMNOKIIAP.cs" />
+    <Compile Include="LNGLMAPJFLI.cs" />
+    <Compile Include="LoadingEnvironmentManager.cs" />
+    <Compile Include="LoadingEnvironmentRegistryData.cs" />
+    <Compile Include="LoadingEnvironmentRegistryEntry.cs" />
+    <Compile Include="LobbyRewardsPopover.cs" />
+    <Compile Include="LobbySearchBar.cs" />
+    <Compile Include="LobbySearchBarTapCatcher.cs" />
+    <Compile Include="LobbyTopMatchManager.cs" />
+    <Compile Include="LobbyTopMatchSelectorManager.cs" />
+    <Compile Include="LobbyUserInterface.cs" />
+    <Compile Include="LocalizationManager.cs" />
+    <Compile Include="LocalizationManagerImage.cs" />
+    <Compile Include="LoungeTapGuard.cs" />
+    <Compile Include="LPEMDECEIAO.cs" />
+    <Compile Include="LPFFPEPIPAL.cs" />
+    <Compile Include="LPGHIPDCAAA.cs" />
+    <Compile Include="LPJPFJOMGPA.cs" />
+    <Compile Include="LPOMOIFMNFD.cs" />
+    <Compile Include="MBPJNDGPGCM.cs" />
+    <Compile Include="MCHHEPGNIAL.cs" />
+    <Compile Include="MDDHDDPKFJH.cs" />
+    <Compile Include="MDNBCCCEJBF.cs" />
+    <Compile Include="MEAHFFHIACD.cs" />
+    <Compile Include="MEBMEBKKCKA.cs" />
+    <Compile Include="MFAONGBCHJE.cs" />
+    <Compile Include="MFJOEANDAPH.cs" />
+    <Compile Include="MGOLMNDHGNG.cs" />
+    <Compile Include="MINIOBPKJLF.cs" />
+    <Compile Include="MJJBPLAMLAN.cs" />
+    <Compile Include="MKCHEIHILDB.cs" />
+    <Compile Include="MKKKPOCJCIN.cs" />
+    <Compile Include="MLDGBANOMAA.cs" />
+    <Compile Include="MLGNGCLDHJO.cs" />
+    <Compile Include="MLIBDDCCKBM.cs" />
+    <Compile Include="MLICLNDBCHP.cs" />
+    <Compile Include="MLJDIENAEDK.cs" />
+    <Compile Include="MMCOALBJOGE.cs" />
+    <Compile Include="MNGDMIHKNDB.cs" />
+    <Compile Include="MNKIPFICLKP.cs" />
+    <Compile Include="MNLBEMJOKNJ.cs" />
+    <Compile Include="MOLKEIABAOJ.cs" />
+    <Compile Include="MOOHIBNFANE.cs" />
+    <Compile Include="MPEEFIAIDBE.cs" />
+    <Compile Include="MPFLJGHNIKB.cs" />
+    <Compile Include="MPOOJBDENKO.cs" />
+    <Compile Include="NAHMBEODKJC.cs" />
+    <Compile Include="NAOOOGJDGMH.cs" />
+    <Compile Include="NarrowScreenScaler.cs" />
+    <Compile Include="NarrowScreenScalerTextMeshPro.cs" />
+    <Compile Include="NBDLBFJOEGN.cs" />
+    <Compile Include="NDBPNOABBCL.cs" />
+    <Compile Include="NDFKFMPHODF.cs" />
+    <Compile Include="NDHKFLHAFNA.cs" />
+    <Compile Include="NEFOGCDMMFK.cs" />
+    <Compile Include="NEHHFJNIMNM.cs" />
+    <Compile Include="NFGDDHHLPDA.cs" />
+    <Compile Include="NGBMJMANEHJ.cs" />
+    <Compile Include="NGLGPHBGDPD.cs" />
+    <Compile Include="NIDOKPOOIHH.cs" />
+    <Compile Include="NIIJIJNFIIA.cs" />
+    <Compile Include="NLJGNHHGCCK.cs" />
+    <Compile Include="NLOBMNMNKOG.cs" />
+    <Compile Include="NMCDFDAHPAM.cs" />
+    <Compile Include="NMKDCBPMCKI.cs" />
+    <Compile Include="NOAPHKMAAJK.cs" />
+    <Compile Include="NonPlayerCharacterManager.cs" />
+    <Compile Include="NotificationsManager.cs" />
+    <Compile Include="NPJNALLPFPO.cs" />
+    <Compile Include="NPKKBBFJBGL.cs" />
+    <Compile Include="NPPPAJPJLDB.cs" />
+    <Compile Include="OALNAEIPOII.cs" />
+    <Compile Include="OBHDGKFFICI.cs" />
+    <Compile Include="ObjectActivator.cs" />
+    <Compile Include="ObjectActivityStateInverter.cs" />
+    <Compile Include="ObjectActivityStateInverterDst.cs" />
+    <Compile Include="OBNCACIFDAJ.cs" />
+    <Compile Include="OCBGFGNOHPF.cs" />
+    <Compile Include="OCBIOPOEENJ.cs" />
+    <Compile Include="OCCBADNHFHK.cs" />
+    <Compile Include="ODDDCGEMPFK.cs" />
+    <Compile Include="ODJKHCHFKNL.cs" />
+    <Compile Include="ODLJHDIGLGO.cs" />
+    <Compile Include="ODLLAEHMFAA.cs" />
+    <Compile Include="OFLIHLDBDEB.cs" />
+    <Compile Include="OGKGGFFPKHG.cs" />
+    <Compile Include="OHAAGENIEMD.cs" />
+    <Compile Include="OHAENGJALPM.cs" />
+    <Compile Include="OHPKEDPANEA.cs" />
+    <Compile Include="OIKNMABGPLG.cs" />
+    <Compile Include="OJEPOPKPJML.cs" />
+    <Compile Include="OJFIIDNJNGB.cs" />
+    <Compile Include="OJPLEKECIFI.cs" />
+    <Compile Include="OKAFAHMOFII.cs" />
+    <Compile Include="OKJHCOIKEJA.cs" />
+    <Compile Include="OKKMLKPFGCF.cs" />
+    <Compile Include="OKNMMLHNCPA.cs" />
+    <Compile Include="OLHOPDNIDLB.cs" />
+    <Compile Include="OMAAAEFJKJP.cs" />
+    <Compile Include="OMIAPOKBELK.cs" />
+    <Compile Include="OMIMIKMIMFE.cs" />
+    <Compile Include="ONAOILNFLHL.cs" />
+    <Compile Include="OnDemandResourcesCheckpoint.cs" />
+    <Compile Include="ONEHEBIHPFB.cs" />
+    <Compile Include="OODLJCPNKML.cs" />
+    <Compile Include="OPMGJPHENFJ.cs" />
+    <Compile Include="OPOGKKEMFPK.cs" />
+    <Compile Include="PAMDLEFCBDE.cs" />
+    <Compile Include="PassesItem.cs" />
+    <Compile Include="PassThumbnail.cs" />
+    <Compile Include="PBFOHLJEMBF.cs" />
+    <Compile Include="PBIBIOOCDKF.cs" />
+    <Compile Include="PCOMCBGPFGF.cs" />
+    <Compile Include="PEJIKBIKKIA.cs" />
+    <Compile Include="PEOGABBHPNP.cs" />
+    <Compile Include="PFADAFAHNNJ.cs" />
+    <Compile Include="PGEAJFENMFB.cs" />
+    <Compile Include="PGFFKNAEFDE.cs" />
+    <Compile Include="PHALBCMBPPL.cs" />
+    <Compile Include="PJNIHBJFGGI.cs" />
+    <Compile Include="PKAFEAJCLGN.cs" />
+    <Compile Include="PKDMGFDHGED.cs" />
+    <Compile Include="PKJJCOLONGL.cs" />
+    <Compile Include="PlayerCharacterManager.cs" />
+    <Compile Include="PLBBPHIJMAH.cs" />
+    <Compile Include="PLFDAJJHMKO.cs" />
+    <Compile Include="PLPHEPDHPJJ.cs" />
+    <Compile Include="PMEPALPCEAF.cs" />
+    <Compile Include="PMMFCELILLE.cs" />
+    <Compile Include="PMNHKIDIMLM.cs" />
+    <Compile Include="PNLLLEKHFHO.cs" />
+    <Compile Include="POBNOGHGLMK.cs" />
+    <Compile Include="PointerEventsController.cs" />
+    <Compile Include="PointerListener.cs" />
+    <Compile Include="POKJIPLIHMH.cs" />
+    <Compile Include="POKPDFKMOFC.cs" />
+    <Compile Include="PopupAvatarCollectionsInput.cs" />
+    <Compile Include="PopupCardOptions.cs" />
+    <Compile Include="PopupDailyRewardManager.cs" />
+    <Compile Include="PopupGamePassSettingsManager.cs" />
+    <Compile Include="PopupGenericNotification.cs" />
+    <Compile Include="PopupOfferManager.cs" />
+    <Compile Include="PopupOnlineResources.cs" />
+    <Compile Include="PopupPasswordInput.cs" />
+    <Compile Include="PopupProfileCredoInput.cs" />
+    <Compile Include="PopupProfileLoveInput.cs" />
+    <Compile Include="PopupProfileMessageInput.cs" />
+    <Compile Include="PopupProfileNicknameInput.cs" />
+    <Compile Include="PopupProfileSaveCutsceneInput.cs" />
+    <Compile Include="PopupProfileUIDInput.cs" />
+    <Compile Include="PopupPromoCodes.cs" />
+    <Compile Include="PopupRemoveAdsManager.cs" />
+    <Compile Include="PopupReturnRewardManager.cs" />
+    <Compile Include="PopupSaveSlotInput.cs" />
+    <Compile Include="PopupSettingsManager.cs" />
+    <Compile Include="PopupSketchesInput.cs" />
+    <Compile Include="PopupSocialSelect.cs" />
+    <Compile Include="PopupStoryRestartManager.cs" />
+    <Compile Include="PopupUsernameInput.cs" />
+    <Compile Include="PPDLJBIOJFK.cs" />
+    <Compile Include="PPDMOMECGGC.cs" />
+    <Compile Include="PPLGDELFMBJ.cs" />
+    <Compile Include="PrivateImplementationDetailsKQPLETG\__BB_OBFUSCATOR_VERSION_3_11_6.cs" />
+    <Compile Include="ProducThumbnailGraphics.cs" />
+    <Compile Include="ProductThumbnailManager.cs" />
+    <Compile Include="ProfileItem2.cs" />
+    <Compile Include="PromoCodesManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseManagerBridge.cs" />
+    <Compile Include="PurchaseManagerSteam.cs" />
+    <Compile Include="PurchaseManagerUnity.cs" />
+    <Compile Include="PurchaseManagerXiaomi.cs" />
+    <Compile Include="PurchasingViewManager.cs" />
+    <Compile Include="QuietNotificationManager.cs" />
+    <Compile Include="RectTransformOffsetManager.cs" />
+    <Compile Include="RequestData.cs" />
+    <Compile Include="RewardOption.cs" />
+    <Compile Include="RewardsItem.cs" />
+    <Compile Include="SaveCutsceneButtonManager.cs" />
+    <Compile Include="SaveSlotObject.cs" />
+    <Compile Include="SaveSlotsItem.cs" />
+    <Compile Include="SceneAvatarManager.cs" />
+    <Compile Include="SceneLobbyManager2.cs" />
+    <Compile Include="SceneLoungeManager.cs" />
+    <Compile Include="SceneManagerUtils.cs" />
+    <Compile Include="SceneOnboardingManager.cs" />
+    <Compile Include="SceneRestartManager.cs" />
+    <Compile Include="SceneRewardManager.cs" />
+    <Compile Include="SceneStartManager.cs" />
+    <Compile Include="SceneStoryAssetPackManager.cs" />
+    <Compile Include="SceneStoryManager.cs" />
+    <Compile Include="SceneTransitionFromLobbyManager.cs" />
+    <Compile Include="SceneTransitionToLobbyManager.cs" />
+    <Compile Include="ScreenAspectRatioAndTextSize.cs" />
+    <Compile Include="ScrollView1Controller.cs" />
+    <Compile Include="ScrollView2Controller.cs" />
+    <Compile Include="SemaphoreManager.cs" />
+    <Compile Include="SetNativeSize.cs" />
+    <Compile Include="ShowIfLanguageSelected.cs" />
+    <Compile Include="SignInWithAppleEvent.cs" />
+    <Compile Include="SketchesItem.cs" />
+    <Compile Include="SketchThumbnail.cs" />
+    <Compile Include="SketchThumbnailEmpty.cs" />
+    <Compile Include="SketchViewManager.cs" />
+    <Compile Include="SkinShopCard.cs" />
+    <Compile Include="SkinShopItem.cs" />
+    <Compile Include="SocialStatBadge.cs" />
+    <Compile Include="SocialStatsAvatarManager.cs" />
+    <Compile Include="StarRatingSelector.cs" />
+    <Compile Include="StatPointInfoManager.cs" />
+    <Compile Include="StatPointManager.cs" />
+    <Compile Include="SteamManager.cs" />
+    <Compile Include="SteamSignInManager.cs" />
+    <Compile Include="StoryChapterAssetPackInfo.cs" />
+    <Compile Include="StoryChapterAssetPackInfoList.cs" />
+    <Compile Include="StoryChapterAssetPacksDesc.cs" />
+    <Compile Include="StoryChapterLanguageSupport2.cs" />
+    <Compile Include="StoryChatDelayManager.cs" />
+    <Compile Include="StoryChatManager.cs" />
+    <Compile Include="StoryChatNonPlayerMessageManager.cs" />
+    <Compile Include="StoryChatPlayerMessageManager.cs" />
+    <Compile Include="StoryChatSystemMessageManager.cs" />
+    <Compile Include="StoryCurrencyInfoManager.cs" />
+    <Compile Include="StoryEnvironmentLayerManager.cs" />
+    <Compile Include="StoryEnvironmentLayerManagerInverter.cs" />
+    <Compile Include="StoryEnvironmentManager.cs" />
+    <Compile Include="StoryInkRevision2.cs" />
+    <Compile Include="StoryInterfaceAutoReaderGlow.cs" />
+    <Compile Include="StoryInterfaceAutoReaderManager.cs" />
+    <Compile Include="StoryInterfaceChoiceUndo.cs" />
+    <Compile Include="StoryInterfaceFastForwardManager.cs" />
+    <Compile Include="StoryInterfaceHeaderManager.cs" />
+    <Compile Include="StoryInterfaceLoveInterestManager.cs" />
+    <Compile Include="StoryInterfaceStatManager.cs" />
+    <Compile Include="StoryItemManager.cs" />
+    <Compile Include="StoryLogoManager.cs" />
+    <Compile Include="StoryNoteManager.cs" />
+    <Compile Include="StoryNpcOverlayComponentHierarchyPosition.cs" />
+    <Compile Include="StorySplashManager.cs" />
+    <Compile Include="StorySubtitleManager.cs" />
+    <Compile Include="SupportedLanguageGeoOverride.cs" />
+    <Compile Include="SystemBackButtonManager.cs" />
+    <Compile Include="TapToContinueManager.cs" />
+    <Compile Include="TestNotifications.cs" />
+    <Compile Include="TextAssetCollection.cs" />
+    <Compile Include="ThemeManager.cs" />
+    <Compile Include="ThemeManagerBundles.cs" />
+    <Compile Include="ThumbnailItem.cs" />
+    <Compile Include="UnluckAnimatedMesh.cs" />
+    <Compile Include="UrlPingManager.cs" />
+    <Compile Include="UserpassSignInManager.cs" />
+    <Compile Include="UTNotifications\BCBNCFOIBEI.cs" />
+    <Compile Include="UTNotifications\DPBDIHCMLIA.cs" />
+    <Compile Include="UTNotifications\GCKCDLJJNMI.cs" />
+    <Compile Include="UTNotifications\GJDGIJMNFKG.cs" />
+    <Compile Include="UTNotifications\JFIGBFCDLDE.cs" />
+    <Compile Include="UTNotifications\LCHODPFAGCO.cs" />
+    <Compile Include="UTNotifications\OBIIIHFGELL.cs" />
+    <Compile Include="VariableVisualStateManager.cs" />
+    <Compile Include="VideoContainer.cs" />
+    <Compile Include="VideoGlitches\Demo\DemoVideoGlitches.cs" />
+    <Compile Include="VideoGlitches\GLOGAPILDIE.cs" />
+    <Compile Include="VideoGlitches\ImageEffectBase.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchBlackWhiteDistortion.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchBrokenScreen.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchCorruptionDigital.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchNoiseAnalog.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchNoiseDigital.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchOldTape.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchOldTV.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchOldVHS.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchRGBDisplay.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchShift.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchSpectrumOffset.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchSpectrumOffsetMask.cs" />
+    <Compile Include="VideoGlitches\VideoGlitchVHSPause.cs" />
+    <Compile Include="VideoGlitchSpectrumOffsetHelper.cs" />
+    <Compile Include="VideoGlitchSpectrumOffsetMaskHelper.cs" />
+    <Compile Include="VideoManager.cs" />
+    <Compile Include="VisualConsoleManager.cs" />
+    <Compile Include="WheelItem.cs" />
+    <Compile Include="WideScreenScaler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App42-Unity3D-SDK-4.2\App42-Unity3D-SDK-4.2.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476722B}</Project>
+      <Name>App42-Unity3D-SDK-4.2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppsFlyer\AppsFlyer.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476722C}</Project>
+      <Name>AppsFlyer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476722D}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\com.rlabrecque.steamworks.net\com.rlabrecque.steamworks.net.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767230}</Project>
+      <Name>com.rlabrecque.steamworks.net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOTween43\DOTween43.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767233}</Project>
+      <Name>DOTween43</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOTween46\DOTween46.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767234}</Project>
+      <Name>DOTween46</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOTween50\DOTween50.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767235}</Project>
+      <Name>DOTween50</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOTweenPro\DOTweenPro.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767236}</Project>
+      <Name>DOTweenPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOTween\DOTween.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767232}</Project>
+      <Name>DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Firebase.Analytics\Firebase.Analytics.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767237}</Project>
+      <Name>Firebase.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476723E}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Newtonsoft.Json\Newtonsoft.Json.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767240}</Project>
+      <Name>Newtonsoft.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Core\System.Core.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767244}</Project>
+      <Name>System.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System\System.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767247}</Project>
+      <Name>System</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.LevelPlay\Unity.LevelPlay.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476725A}</Project>
+      <Name>Unity.LevelPlay</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Purchasing\Unity.Purchasing.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476725E}</Project>
+      <Name>Unity.Purchasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core.Environments\Unity.Services.Core.Environments.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767269}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.Services.Core\Unity.Services.Core.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767268}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Unity.TextMeshPro\Unity.TextMeshPro.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767272}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.AssetBundleModule\UnityEngine.AssetBundleModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767279}</Project>
+      <Name>UnityEngine.AssetBundleModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.AudioModule\UnityEngine.AudioModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476727A}</Project>
+      <Name>UnityEngine.AudioModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.CoreModule\UnityEngine.CoreModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476727E}</Project>
+      <Name>UnityEngine.CoreModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.IMGUIModule\UnityEngine.IMGUIModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767288}</Project>
+      <Name>UnityEngine.IMGUIModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.InputLegacyModule\UnityEngine.InputLegacyModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767289}</Project>
+      <Name>UnityEngine.InputLegacyModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.JSONSerializeModule\UnityEngine.JSONSerializeModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476728B}</Project>
+      <Name>UnityEngine.JSONSerializeModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.ParticleSystemModule\UnityEngine.ParticleSystemModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476728E}</Project>
+      <Name>UnityEngine.ParticleSystemModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.Physics2DModule\UnityEngine.Physics2DModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767290}</Project>
+      <Name>UnityEngine.Physics2DModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.PhysicsModule\UnityEngine.PhysicsModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767291}</Project>
+      <Name>UnityEngine.PhysicsModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.TextRenderingModule\UnityEngine.TextRenderingModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672A0}</Project>
+      <Name>UnityEngine.TextRenderingModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.UIModule\UnityEngine.UIModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672A6}</Project>
+      <Name>UnityEngine.UIModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.UI\UnityEngine.UI.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672A3}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.UnityWebRequestAssetBundleModule\UnityEngine.UnityWebRequestAssetBundleModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672AE}</Project>
+      <Name>UnityEngine.UnityWebRequestAssetBundleModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.UnityWebRequestModule\UnityEngine.UnityWebRequestModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672B0}</Project>
+      <Name>UnityEngine.UnityWebRequestModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.UnityWebRequestWWWModule\UnityEngine.UnityWebRequestWWWModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672B2}</Project>
+      <Name>UnityEngine.UnityWebRequestWWWModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnityEngine.VideoModule\UnityEngine.VideoModule.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB447672B5}</Project>
+      <Name>UnityEngine.VideoModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

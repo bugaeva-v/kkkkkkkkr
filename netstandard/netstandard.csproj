@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1FA9BA0-F995-4C77-8C0E-90EB4476723F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>netstandard</RootNamespace>
+    <AssemblyName>netstandard</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mscorlib\mscorlib.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476723E}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.ComponentModel.Composition\System.ComponentModel.Composition.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767242}</Project>
+      <Name>System.ComponentModel.Composition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Core\System.Core.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767244}</Project>
+      <Name>System.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Data.DataSetExtensions\System.Data.DataSetExtensions.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767245}</Project>
+      <Name>System.Data.DataSetExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Data\System.Data.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767246}</Project>
+      <Name>System.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Drawing\System.Drawing.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767248}</Project>
+      <Name>System.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.IO.Compression.FileSystem\System.IO.Compression.FileSystem.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476724B}</Project>
+      <Name>System.IO.Compression.FileSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.IO.Compression\System.IO.Compression.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476724A}</Project>
+      <Name>System.IO.Compression</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Net.Http\System.Net.Http.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476724C}</Project>
+      <Name>System.Net.Http</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Numerics\System.Numerics.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476724D}</Project>
+      <Name>System.Numerics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Runtime.Serialization\System.Runtime.Serialization.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB4476724F}</Project>
+      <Name>System.Runtime.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Transactions\System.Transactions.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767253}</Project>
+      <Name>System.Transactions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Xml.Linq\System.Xml.Linq.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767255}</Project>
+      <Name>System.Xml.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.Xml\System.Xml.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767254}</Project>
+      <Name>System.Xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System\System.csproj">
+      <Project>{C1FA9BA0-F995-4C77-8C0E-90EB44767247}</Project>
+      <Name>System</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

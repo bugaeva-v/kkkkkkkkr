@@ -1,0 +1,139 @@
+﻿using System;
+using System.Collections.Specialized;
+using System.Reflection;
+using System.Security.Policy;
+
+namespace System.CodeDom.Compiler
+{
+	/// <summary>Представляет результаты компиляции, возвращаемые компилятором.</summary>
+	// Token: 0x0200034D RID: 845
+	[Serializable]
+	public class CompilerResults
+	{
+		/// <summary>Указывает объект свидетельства, представляющий разрешения политики безопасности компилируемой сборки.</summary>
+		/// <returns>Объект <see cref="T:System.Security.Policy.Evidence" />, представляющий разрешения политики безопасности компилируемой сборки.</returns>
+		// Token: 0x1700059B RID: 1435
+		// (get) Token: 0x06001BFB RID: 7163 RVA: 0x00066768 File Offset: 0x00064968
+		// (set) Token: 0x06001BFC RID: 7164 RVA: 0x0006677B File Offset: 0x0006497B
+		[Obsolete("CAS policy is obsolete and will be removed in a future release of the .NET Framework. Please see http://go2.microsoft.com/fwlink/?LinkId=131738 for more information.")]
+		public Evidence Evidence
+		{
+			get
+			{
+				Evidence evidence = this._evidence;
+				if (evidence == null)
+				{
+					return null;
+				}
+				return evidence.Clone();
+			}
+			set
+			{
+				this._evidence = ((value != null) ? value.Clone() : null);
+			}
+		}
+
+		/// <summary>Инициализирует новый экземпляр класса <see cref="T:System.CodeDom.Compiler.CompilerResults" />, использующий указанные временные файлы.</summary>
+		/// <param name="tempFiles">Объект <see cref="T:System.CodeDom.Compiler.TempFileCollection" />, с помощью которого необходимо сохранять ссылки на промежуточные файлы, созданные во время компиляции, и управлять ими.</param>
+		// Token: 0x06001BFD RID: 7165 RVA: 0x0006678F File Offset: 0x0006498F
+		public CompilerResults(TempFileCollection tempFiles)
+		{
+			this._tempFiles = tempFiles;
+		}
+
+		/// <summary>Получает или задает коллекцию временных файлов для использования.</summary>
+		/// <returns>Объект <see cref="T:System.CodeDom.Compiler.TempFileCollection" />, с помощью которого необходимо сохранять ссылки на промежуточные файлы, созданные во время компиляции, и управлять ими.</returns>
+		// Token: 0x1700059C RID: 1436
+		// (get) Token: 0x06001BFE RID: 7166 RVA: 0x000667B4 File Offset: 0x000649B4
+		// (set) Token: 0x06001BFF RID: 7167 RVA: 0x000667BC File Offset: 0x000649BC
+		public TempFileCollection TempFiles
+		{
+			get
+			{
+				return this._tempFiles;
+			}
+			set
+			{
+				this._tempFiles = value;
+			}
+		}
+
+		/// <summary>Получает или задает откомпилированную сборку.</summary>
+		/// <returns>Объект <see cref="T:System.Reflection.Assembly" />, указывающий откомпилированную сборку.</returns>
+		// Token: 0x1700059D RID: 1437
+		// (get) Token: 0x06001C00 RID: 7168 RVA: 0x000667C5 File Offset: 0x000649C5
+		// (set) Token: 0x06001C01 RID: 7169 RVA: 0x000667FF File Offset: 0x000649FF
+		public Assembly CompiledAssembly
+		{
+			get
+			{
+				if (this._compiledAssembly == null && this.PathToAssembly != null)
+				{
+					this._compiledAssembly = Assembly.Load(new AssemblyName
+					{
+						CodeBase = this.PathToAssembly
+					});
+				}
+				return this._compiledAssembly;
+			}
+			set
+			{
+				this._compiledAssembly = value;
+			}
+		}
+
+		/// <summary>Получает коллекцию ошибок компилятора и предупреждений.</summary>
+		/// <returns>
+		///   <see cref="T:System.CodeDom.Compiler.CompilerErrorCollection" /> показывает ошибки и предупреждения, полученные во время компиляции, если они есть.</returns>
+		// Token: 0x1700059E RID: 1438
+		// (get) Token: 0x06001C02 RID: 7170 RVA: 0x00066808 File Offset: 0x00064A08
+		public CompilerErrorCollection Errors
+		{
+			get
+			{
+				return this._errors;
+			}
+		}
+
+		/// <summary>Получает выходные сообщения компилятора.</summary>
+		/// <returns>Объект <see cref="T:System.Collections.Specialized.StringCollection" />, содержащий выходные сообщения.</returns>
+		// Token: 0x1700059F RID: 1439
+		// (get) Token: 0x06001C03 RID: 7171 RVA: 0x00066810 File Offset: 0x00064A10
+		public StringCollection Output
+		{
+			get
+			{
+				return this._output;
+			}
+		}
+
+		/// <summary>Получает или задает путь к откомпилированной сборке.</summary>
+		/// <returns>Путь к сборке или значение <see langword="null" />, если сборка была создана в памяти.</returns>
+		// Token: 0x170005A0 RID: 1440
+		// (get) Token: 0x06001C04 RID: 7172 RVA: 0x00066818 File Offset: 0x00064A18
+		// (set) Token: 0x06001C05 RID: 7173 RVA: 0x00066820 File Offset: 0x00064A20
+		public string PathToAssembly { get; set; }
+
+		/// <summary>Получает или задает возвращаемое значение компилятора.</summary>
+		/// <returns>Возвращаемое значение компилятора.</returns>
+		// Token: 0x170005A1 RID: 1441
+		// (get) Token: 0x06001C06 RID: 7174 RVA: 0x00066829 File Offset: 0x00064A29
+		// (set) Token: 0x06001C07 RID: 7175 RVA: 0x00066831 File Offset: 0x00064A31
+		public int NativeCompilerReturnValue { get; set; }
+
+		// Token: 0x04000E45 RID: 3653
+		private Evidence _evidence;
+
+		// Token: 0x04000E46 RID: 3654
+		private readonly CompilerErrorCollection _errors = new CompilerErrorCollection();
+
+		// Token: 0x04000E47 RID: 3655
+		private readonly StringCollection _output = new StringCollection();
+
+		// Token: 0x04000E48 RID: 3656
+		private Assembly _compiledAssembly;
+
+		// Token: 0x04000E49 RID: 3657
+		private TempFileCollection _tempFiles;
+	}
+}

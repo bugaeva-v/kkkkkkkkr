@@ -1,0 +1,78 @@
+﻿using System;
+
+namespace Steamworks
+{
+	// Token: 0x02000007 RID: 7
+	public static class IOCDIMGCAFH
+	{
+		// Token: 0x06000025 RID: 37 RVA: 0x0000283C File Offset: 0x00000A3C
+		public static CSteamID MBABIFOJGFK()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			return CSteamID.PEAFCMBIENC(IPBEAECLPOJ.FFEKOKHHGNA());
+		}
+
+		// Token: 0x06000026 RID: 38 RVA: 0x0000284D File Offset: 0x00000A4D
+		public static void CACBKDNDGJP()
+		{
+			IFCLHDEHPBF.KFGJPBDALAJ(true);
+		}
+
+		// Token: 0x06000027 RID: 39 RVA: 0x00002855 File Offset: 0x00000A55
+		public static HSteamPipe DBGFFILDPMH()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			return HSteamPipe.PEAFCMBIENC(IPBEAECLPOJ.FCPHJGJEDPH());
+		}
+
+		// Token: 0x06000028 RID: 40 RVA: 0x00002868 File Offset: 0x00000A68
+		public static bool GLFBHMMGHGL(uint FLGFECHPNIF, ushort HCOECGJHAJA, ushort KMLJPOGEMNO, ILOLDAKCIIK FMHKKKFMNDB, string DJADHKEDJCE)
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			bool flag;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(DJADHKEDJCE))
+			{
+				flag = IPBEAECLPOJ.GGNOJMNMGKK(FLGFECHPNIF, 0, HCOECGJHAJA, KMLJPOGEMNO, FMHKKKFMNDB, ljanjdbdbji);
+			}
+			if (flag)
+			{
+				flag = FAIABBGHMEG.GLFBHMMGHGL();
+			}
+			if (flag)
+			{
+				IFCLHDEHPBF.BAMHPOCKBML();
+			}
+			return flag;
+		}
+
+		// Token: 0x06000029 RID: 41 RVA: 0x000028BC File Offset: 0x00000ABC
+		public static bool NMLOAFEJEFN()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			return IPBEAECLPOJ.COABEHKADOC();
+		}
+
+		// Token: 0x0600002A RID: 42 RVA: 0x000028C8 File Offset: 0x00000AC8
+		public static HSteamUser FLEBHODMECH()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			return HSteamUser.PEAFCMBIENC(IPBEAECLPOJ.JELPPGBJPKP());
+		}
+
+		// Token: 0x0600002B RID: 43 RVA: 0x000028D9 File Offset: 0x00000AD9
+		public static void FIDMCBAJBEB()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			IPBEAECLPOJ.OOKOFFAHFKD();
+			FAIABBGHMEG.IJHHMHAEKKE();
+			IFCLHDEHPBF.FIDMCBAJBEB();
+		}
+
+		// Token: 0x0600002C RID: 44 RVA: 0x000028EF File Offset: 0x00000AEF
+		public static void DHBHJHFDNFP()
+		{
+			MBLFNIBGODG.IALPPNHCEEB();
+			IPBEAECLPOJ.NEHDMJIGCLP();
+		}
+	}
+}

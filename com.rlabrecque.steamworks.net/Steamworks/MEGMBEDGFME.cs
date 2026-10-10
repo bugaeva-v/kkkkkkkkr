@@ -1,0 +1,350 @@
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace Steamworks
+{
+	// Token: 0x02000058 RID: 88
+	public static class MEGMBEDGFME
+	{
+		// Token: 0x06000687 RID: 1671 RVA: 0x00005EED File Offset: 0x000040ED
+		public static bool AHNAHLDFELA(out SteamInventoryResult_t DONIEBGGKMH, SteamItemDef_t[] JACDGOFNFNM, uint[] HOGOCIDNBBP, uint FAPGDHCGHKP, SteamItemInstanceID_t[] BBBJFLEFDGM, uint[] KOCHMHBHOMJ, uint LAFAOGPPGFB)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.CDPMAONEOLF(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, JACDGOFNFNM, HOGOCIDNBBP, FAPGDHCGHKP, BBBJFLEFDGM, KOCHMHBHOMJ, LAFAOGPPGFB);
+		}
+
+		// Token: 0x06000688 RID: 1672 RVA: 0x00005F08 File Offset: 0x00004108
+		public static bool AMGOJHJHJDI(SteamInventoryUpdateHandle_t CCCPIFNDMGF, out SteamInventoryResult_t DONIEBGGKMH)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.ILAFIKGGPLB(FAIABBGHMEG.CMNGOOGEDBM(), CCCPIFNDMGF, out DONIEBGGKMH);
+		}
+
+		// Token: 0x06000689 RID: 1673 RVA: 0x00005F1C File Offset: 0x0000411C
+		public static bool HEILBKLILNE(out SteamInventoryResult_t DONIEBGGKMH, string IHMGMIIFOMI)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			bool result;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(IHMGMIIFOMI))
+			{
+				result = IPBEAECLPOJ.NBNBGAKKECD(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, ljanjdbdbji);
+			}
+			return result;
+		}
+
+		// Token: 0x0600068A RID: 1674 RVA: 0x00005F60 File Offset: 0x00004160
+		public static bool GDJOEGAFOEF(SteamItemDef_t GBBOHNKFKMJ, out ulong CODHMGCCMHE, out ulong ALINFHMILAG)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.GLDAOFAMBHE(FAIABBGHMEG.CMNGOOGEDBM(), GBBOHNKFKMJ, out CODHMGCCMHE, out ALINFHMILAG);
+		}
+
+		// Token: 0x0600068B RID: 1675 RVA: 0x00005F74 File Offset: 0x00004174
+		public static bool CKECODMICEI()
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.DFODHAMBFGC(FAIABBGHMEG.CMNGOOGEDBM());
+		}
+
+		// Token: 0x0600068C RID: 1676 RVA: 0x00005F85 File Offset: 0x00004185
+		public static bool OGNLGMEAEFN(SteamInventoryResult_t PDIGNGHLDII, byte[] OPJNJDBGCHL, out uint NPKCNEHBJJC)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.PEGAPJFLOKA(FAIABBGHMEG.CMNGOOGEDBM(), PDIGNGHLDII, OPJNJDBGCHL, out NPKCNEHBJJC);
+		}
+
+		// Token: 0x0600068D RID: 1677 RVA: 0x00005F9C File Offset: 0x0000419C
+		public static bool KELODCBKJAB(SteamInventoryUpdateHandle_t CCCPIFNDMGF, SteamItemInstanceID_t FNBDJJIEEJC, string AGIKLDMPJPE, string CGHBDIMJGFC)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			bool result;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(AGIKLDMPJPE))
+			{
+				using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji2 = new MBLFNIBGODG.LJANJDBDBJI(CGHBDIMJGFC))
+				{
+					result = IPBEAECLPOJ.APLDBHNIBLC(FAIABBGHMEG.CMNGOOGEDBM(), CCCPIFNDMGF, FNBDJJIEEJC, ljanjdbdbji, ljanjdbdbji2);
+				}
+			}
+			return result;
+		}
+
+		// Token: 0x0600068E RID: 1678 RVA: 0x00006000 File Offset: 0x00004200
+		public static bool BGAEMKPIABL(out SteamInventoryResult_t DONIEBGGKMH)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.NDKDNAMJEAD(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH);
+		}
+
+		// Token: 0x0600068F RID: 1679 RVA: 0x00006014 File Offset: 0x00004214
+		public static bool FMLAJMEKHHO(out SteamInventoryResult_t DONIEBGGKMH, CSteamID ACNNAFCICCK, SteamItemInstanceID_t[] LDENOIMKGGH, uint[] DIFLCBADCDE, uint PDGOLJFANKI, SteamItemInstanceID_t[] JFOFLPAGMFH, uint[] IEDJOBHNHOO, uint KGDGFGIBCPJ)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.AMIMNKBANHM(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, ACNNAFCICCK, LDENOIMKGGH, DIFLCBADCDE, PDGOLJFANKI, JFOFLPAGMFH, IEDJOBHNHOO, KGDGFGIBCPJ);
+		}
+
+		// Token: 0x06000690 RID: 1680 RVA: 0x0000603C File Offset: 0x0000423C
+		public static LNFOAHHPFIH BCELNJKGBNP(SteamInventoryResult_t PDIGNGHLDII)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.NCGKPLDOKKP(FAIABBGHMEG.CMNGOOGEDBM(), PDIGNGHLDII);
+		}
+
+		// Token: 0x06000691 RID: 1681 RVA: 0x0000604E File Offset: 0x0000424E
+		public static SteamAPICall_t FLICBPGJPEI(CSteamID EKCOJJGHNAN)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return SteamAPICall_t.PEAFCMBIENC(IPBEAECLPOJ.FJEEJGKNEPH(FAIABBGHMEG.CMNGOOGEDBM(), EKCOJJGHNAN));
+		}
+
+		// Token: 0x06000692 RID: 1682 RVA: 0x00006065 File Offset: 0x00004265
+		public static bool NOGNBAMOAKO(SteamInventoryResult_t PDIGNGHLDII, CSteamID KBHBABCJODP)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.KHIEMDGDAPA(FAIABBGHMEG.CMNGOOGEDBM(), PDIGNGHLDII, KBHBABCJODP);
+		}
+
+		// Token: 0x06000693 RID: 1683 RVA: 0x00006078 File Offset: 0x00004278
+		public static bool BHNAJDLDCAL(out SteamInventoryResult_t DONIEBGGKMH)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.MDOOAAPEMBG(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH);
+		}
+
+		// Token: 0x06000694 RID: 1684 RVA: 0x0000608A File Offset: 0x0000428A
+		public static uint EMMGCLALLDM()
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.GBCCFNBMLIO(FAIABBGHMEG.CMNGOOGEDBM());
+		}
+
+		// Token: 0x06000695 RID: 1685 RVA: 0x0000609B File Offset: 0x0000429B
+		public static bool BNGAOJCECNO(out SteamInventoryResult_t DONIEBGGKMH, SteamItemDef_t FKNOHONPAEA)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.PJKHHIPNMHF(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, FKNOHONPAEA);
+		}
+
+		// Token: 0x06000696 RID: 1686 RVA: 0x000060B0 File Offset: 0x000042B0
+		public static bool KELODCBKJAB(SteamInventoryUpdateHandle_t CCCPIFNDMGF, SteamItemInstanceID_t FNBDJJIEEJC, string AGIKLDMPJPE, float DCGJPJIACHO)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			bool result;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(AGIKLDMPJPE))
+			{
+				result = IPBEAECLPOJ.FHJPOKBGEJJ(FAIABBGHMEG.CMNGOOGEDBM(), CCCPIFNDMGF, FNBDJJIEEJC, ljanjdbdbji, DCGJPJIACHO);
+			}
+			return result;
+		}
+
+		// Token: 0x06000697 RID: 1687 RVA: 0x000060F8 File Offset: 0x000042F8
+		public static bool COKEJENDOJL(SteamItemDef_t[] HPIHEINFIEO, ulong[] JLDIFNAKOJB, ulong[] CEOIHPHPPAO, uint OIPDLADCLOC)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			if (HPIHEINFIEO != null && (long)HPIHEINFIEO.Length != (long)((ulong)OIPDLADCLOC))
+			{
+				throw new ArgumentException("pArrayItemDefs must be the same size as unArrayLength!");
+			}
+			if (JLDIFNAKOJB != null && (long)JLDIFNAKOJB.Length != (long)((ulong)OIPDLADCLOC))
+			{
+				throw new ArgumentException("pCurrentPrices must be the same size as unArrayLength!");
+			}
+			if (CEOIHPHPPAO != null && (long)CEOIHPHPPAO.Length != (long)((ulong)OIPDLADCLOC))
+			{
+				throw new ArgumentException("pBasePrices must be the same size as unArrayLength!");
+			}
+			return IPBEAECLPOJ.DEHMHFGCBJK(FAIABBGHMEG.CMNGOOGEDBM(), HPIHEINFIEO, JLDIFNAKOJB, CEOIHPHPPAO, OIPDLADCLOC);
+		}
+
+		// Token: 0x06000698 RID: 1688 RVA: 0x0000615A File Offset: 0x0000435A
+		public static uint HEBLNFBMLPN(SteamInventoryResult_t PDIGNGHLDII)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.PBNCIIFGHCM(FAIABBGHMEG.CMNGOOGEDBM(), PDIGNGHLDII);
+		}
+
+		// Token: 0x06000699 RID: 1689 RVA: 0x0000616C File Offset: 0x0000436C
+		public static SteamAPICall_t COPGPMGKIDO()
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return SteamAPICall_t.PEAFCMBIENC(IPBEAECLPOJ.KAEBPJPLCMK(FAIABBGHMEG.CMNGOOGEDBM()));
+		}
+
+		// Token: 0x0600069A RID: 1690 RVA: 0x00006184 File Offset: 0x00004384
+		public static bool BPKCOKLIOHA(SteamItemDef_t GBBOHNKFKMJ, string AGIKLDMPJPE, out string IEMHFECBNOD, ref uint JPIJOPFKOJO)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			IntPtr intPtr = Marshal.AllocHGlobal((int)JPIJOPFKOJO);
+			bool result;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(AGIKLDMPJPE))
+			{
+				bool flag = IPBEAECLPOJ.ILFDOGHBLNA(FAIABBGHMEG.CMNGOOGEDBM(), GBBOHNKFKMJ, ljanjdbdbji, intPtr, ref JPIJOPFKOJO);
+				IEMHFECBNOD = (flag ? MBLFNIBGODG.EFIMHBHCPFM(intPtr) : null);
+				Marshal.FreeHGlobal(intPtr);
+				result = flag;
+			}
+			return result;
+		}
+
+		// Token: 0x0600069B RID: 1691 RVA: 0x000061E8 File Offset: 0x000043E8
+		public static bool HFHIKOBLFIO(SteamInventoryResult_t PDIGNGHLDII, uint AFKILBGMEEC, string AGIKLDMPJPE, out string IEMHFECBNOD, ref uint JPIJOPFKOJO)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			IntPtr intPtr = Marshal.AllocHGlobal((int)JPIJOPFKOJO);
+			bool result;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(AGIKLDMPJPE))
+			{
+				bool flag = IPBEAECLPOJ.HDEHFDIADFE(FAIABBGHMEG.CMNGOOGEDBM(), PDIGNGHLDII, AFKILBGMEEC, ljanjdbdbji, intPtr, ref JPIJOPFKOJO);
+				IEMHFECBNOD = (flag ? MBLFNIBGODG.EFIMHBHCPFM(intPtr) : null);
+				Marshal.FreeHGlobal(intPtr);
+				result = flag;
+			}
+			return result;
+		}
+
+		// Token: 0x0600069C RID: 1692 RVA: 0x00006250 File Offset: 0x00004450
+		public static bool EHEOEFCGFJK(CSteamID EKCOJJGHNAN, SteamItemDef_t[] HHJEKGOHNOE, ref uint FKNFFLFFAGF)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			if (HHJEKGOHNOE != null && (long)HHJEKGOHNOE.Length != (long)((ulong)FKNFFLFFAGF))
+			{
+				throw new ArgumentException("pItemDefIDs must be the same size as punItemDefIDsArraySize!");
+			}
+			return IPBEAECLPOJ.HGLHIDHHOPM(FAIABBGHMEG.CMNGOOGEDBM(), EKCOJJGHNAN, HHJEKGOHNOE, ref FKNFFLFFAGF);
+		}
+
+		// Token: 0x0600069D RID: 1693 RVA: 0x0000627B File Offset: 0x0000447B
+		public static bool JCBFDEDBDML(out SteamInventoryResult_t DONIEBGGKMH, SteamItemInstanceID_t DJAAFBMGIBA, uint HPAEDHHMDFM)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.EJCNLBEKOMG(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, DJAAFBMGIBA, HPAEDHHMDFM);
+		}
+
+		// Token: 0x0600069E RID: 1694 RVA: 0x0000628F File Offset: 0x0000448F
+		public static bool KNKDDDBGICP(SteamItemDef_t[] HHJEKGOHNOE, ref uint FKNFFLFFAGF)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			if (HHJEKGOHNOE != null && (long)HHJEKGOHNOE.Length != (long)((ulong)FKNFFLFFAGF))
+			{
+				throw new ArgumentException("pItemDefIDs must be the same size as punItemDefIDsArraySize!");
+			}
+			return IPBEAECLPOJ.CPEFPPOCDFK(FAIABBGHMEG.CMNGOOGEDBM(), HHJEKGOHNOE, ref FKNFFLFFAGF);
+		}
+
+		// Token: 0x0600069F RID: 1695 RVA: 0x000062B9 File Offset: 0x000044B9
+		public static bool ELDIODFJCAA(out SteamInventoryResult_t DONIEBGGKMH, SteamItemInstanceID_t AHAOBDNIGIG, uint HPAEDHHMDFM, SteamItemInstanceID_t GIKDPIGCHDD)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.JOPFFNLPDCN(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, AHAOBDNIGIG, HPAEDHHMDFM, GIKDPIGCHDD);
+		}
+
+		// Token: 0x060006A0 RID: 1696 RVA: 0x000062CE File Offset: 0x000044CE
+		public static bool IKLKGEBFCKK(out SteamInventoryResult_t DONIEBGGKMH, SteamItemDef_t[] HPIHEINFIEO, uint OIPDLADCLOC)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.ICJCIHOFLBF(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, HPIHEINFIEO, OIPDLADCLOC);
+		}
+
+		// Token: 0x060006A1 RID: 1697 RVA: 0x000062E2 File Offset: 0x000044E2
+		public static bool PCJGEMMPLDL(out SteamInventoryResult_t LBHCNJGDJGJ, byte[] GCJJKAOLLFG, uint NJILDPDADEM, bool MFEJNALGBAI = false)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.AHCHCMEFJEL(FAIABBGHMEG.CMNGOOGEDBM(), out LBHCNJGDJGJ, GCJJKAOLLFG, NJILDPDADEM, MFEJNALGBAI);
+		}
+
+		// Token: 0x060006A2 RID: 1698 RVA: 0x000062F7 File Offset: 0x000044F7
+		public static SteamAPICall_t CEBJMFJEBHC(SteamItemDef_t[] HPIHEINFIEO, uint[] DKCHIEOKNMA, uint OIPDLADCLOC)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return SteamAPICall_t.PEAFCMBIENC(IPBEAECLPOJ.GHIBMMNDAAL(FAIABBGHMEG.CMNGOOGEDBM(), HPIHEINFIEO, DKCHIEOKNMA, OIPDLADCLOC));
+		}
+
+		// Token: 0x060006A3 RID: 1699 RVA: 0x00006310 File Offset: 0x00004510
+		public static bool JPJDCNNAHEC(SteamInventoryResult_t PDIGNGHLDII, KECLCPJHOAJ[] PAANBDPBBBF, ref uint NLGOICHNFME)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			if (PAANBDPBBBF != null && (long)PAANBDPBBBF.Length != (long)((ulong)NLGOICHNFME))
+			{
+				throw new ArgumentException("pOutItemsArray must be the same size as punOutItemsArraySize!");
+			}
+			return IPBEAECLPOJ.MFHCHKFBNFC(FAIABBGHMEG.CMNGOOGEDBM(), PDIGNGHLDII, PAANBDPBBBF, ref NLGOICHNFME);
+		}
+
+		// Token: 0x060006A4 RID: 1700 RVA: 0x0000633B File Offset: 0x0000453B
+		public static SteamInventoryUpdateHandle_t NDICKMPFKAA()
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return SteamInventoryUpdateHandle_t.PEAFCMBIENC(IPBEAECLPOJ.FPKPHFICMOO(FAIABBGHMEG.CMNGOOGEDBM()));
+		}
+
+		// Token: 0x060006A5 RID: 1701 RVA: 0x00006351 File Offset: 0x00004551
+		public static void IPEMMDCCEEM(SteamInventoryResult_t PDIGNGHLDII)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			IPBEAECLPOJ.LHGGPHFAKLP(FAIABBGHMEG.CMNGOOGEDBM(), PDIGNGHLDII);
+		}
+
+		// Token: 0x060006A6 RID: 1702 RVA: 0x00006363 File Offset: 0x00004563
+		public static void JFMGACECINP()
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			IPBEAECLPOJ.NLHBDABJIPL(FAIABBGHMEG.CMNGOOGEDBM());
+		}
+
+		// Token: 0x060006A7 RID: 1703 RVA: 0x00006374 File Offset: 0x00004574
+		public static bool JBHBAGFFEID(out SteamInventoryResult_t DONIEBGGKMH, SteamItemDef_t KKAFLCCFEKF)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.BJFBIEJHJKO(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, KKAFLCCFEKF);
+		}
+
+		// Token: 0x060006A8 RID: 1704 RVA: 0x00006387 File Offset: 0x00004587
+		public static bool OBBDJBPJGDM(out SteamInventoryResult_t DONIEBGGKMH, SteamItemDef_t[] HPIHEINFIEO, uint[] DKCHIEOKNMA, uint OIPDLADCLOC)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.BNPAJEBLFEJ(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, HPIHEINFIEO, DKCHIEOKNMA, OIPDLADCLOC);
+		}
+
+		// Token: 0x060006A9 RID: 1705 RVA: 0x0000639C File Offset: 0x0000459C
+		public static bool KELODCBKJAB(SteamInventoryUpdateHandle_t CCCPIFNDMGF, SteamItemInstanceID_t FNBDJJIEEJC, string AGIKLDMPJPE, long IJGKPMJJNBN)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			bool result;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(AGIKLDMPJPE))
+			{
+				result = IPBEAECLPOJ.GDAAEFICAHO(FAIABBGHMEG.CMNGOOGEDBM(), CCCPIFNDMGF, FNBDJJIEEJC, ljanjdbdbji, IJGKPMJJNBN);
+			}
+			return result;
+		}
+
+		// Token: 0x060006AA RID: 1706 RVA: 0x000063E4 File Offset: 0x000045E4
+		public static bool DBPGCEGPKDB(out SteamInventoryResult_t DONIEBGGKMH, SteamItemInstanceID_t[] BLILHKPJJAD, uint HKIOKDNFCGI)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			return IPBEAECLPOJ.LNFFEOEPHAM(FAIABBGHMEG.CMNGOOGEDBM(), out DONIEBGGKMH, BLILHKPJJAD, HKIOKDNFCGI);
+		}
+
+		// Token: 0x060006AB RID: 1707 RVA: 0x000063F8 File Offset: 0x000045F8
+		public static bool KELODCBKJAB(SteamInventoryUpdateHandle_t CCCPIFNDMGF, SteamItemInstanceID_t FNBDJJIEEJC, string AGIKLDMPJPE, bool OFLAMEMDFGK)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			bool result;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(AGIKLDMPJPE))
+			{
+				result = IPBEAECLPOJ.MGJACEIGPPL(FAIABBGHMEG.CMNGOOGEDBM(), CCCPIFNDMGF, FNBDJJIEEJC, ljanjdbdbji, OFLAMEMDFGK);
+			}
+			return result;
+		}
+
+		// Token: 0x060006AC RID: 1708 RVA: 0x00006440 File Offset: 0x00004640
+		public static bool HJPIOGMHABL(SteamInventoryUpdateHandle_t CCCPIFNDMGF, SteamItemInstanceID_t FNBDJJIEEJC, string AGIKLDMPJPE)
+		{
+			MBLFNIBGODG.DCCDHMMGEEG();
+			bool result;
+			using (MBLFNIBGODG.LJANJDBDBJI ljanjdbdbji = new MBLFNIBGODG.LJANJDBDBJI(AGIKLDMPJPE))
+			{
+				result = IPBEAECLPOJ.KJMPCHJCBKG(FAIABBGHMEG.CMNGOOGEDBM(), CCCPIFNDMGF, FNBDJJIEEJC, ljanjdbdbji);
+			}
+			return result;
+		}
+	}
+}

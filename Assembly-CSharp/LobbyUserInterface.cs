@@ -1,0 +1,909 @@
+﻿using System;
+using UnityEngine;
+
+// Token: 0x0200044A RID: 1098
+public class LobbyUserInterface : MonoBehaviour
+{
+	// Token: 0x06008557 RID: 34135 RVA: 0x003B604D File Offset: 0x003B424D
+	public void ADHNLFLBPMP(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x06008558 RID: 34136 RVA: 0x003B6063 File Offset: 0x003B4263
+	private void FLGIOJBKGIM()
+	{
+		this.Reset();
+	}
+
+	// Token: 0x06008559 RID: 34137 RVA: 0x003B606B File Offset: 0x003B426B
+	public bool KAMLGDKNIJF()
+	{
+		return this.friendsMessagePopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x0600855A RID: 34138 RVA: 0x003B607D File Offset: 0x003B427D
+	public void PPDOGLMDLNM(string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.NNMNCAFENAP();
+	}
+
+	// Token: 0x0600855B RID: 34139 RVA: 0x003B608A File Offset: 0x003B428A
+	public void BPAJDHDGDJL(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.PAHHJLODBKO(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x0600855C RID: 34140 RVA: 0x003B60A8 File Offset: 0x003B42A8
+	private void LOLPCOLPHLJ()
+	{
+		if (LobbyUserInterface.IKLAPGJDMNA == this)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = null;
+		}
+	}
+
+	// Token: 0x0600855D RID: 34141 RVA: 0x003B60BD File Offset: 0x003B42BD
+	private void DBCGAKFDLGD()
+	{
+		this.PONLILEKDFJ();
+	}
+
+	// Token: 0x0600855E RID: 34142 RVA: 0x003B60C5 File Offset: 0x003B42C5
+	public static bool LHOPNLCGPJJ()
+	{
+		return !LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x0600855F RID: 34143 RVA: 0x003B60D6 File Offset: 0x003B42D6
+	public void KMJCKNLNGIE(bool DHLAMFCAHPJ, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterAppearAnimation(DHLAMFCAHPJ, EMGMCANANEJ);
+	}
+
+	// Token: 0x06008560 RID: 34144 RVA: 0x003B60D6 File Offset: 0x003B42D6
+	public void PCEAKFIGKGN(bool DHLAMFCAHPJ, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterAppearAnimation(DHLAMFCAHPJ, EMGMCANANEJ);
+	}
+
+	// Token: 0x06008561 RID: 34145 RVA: 0x003B606B File Offset: 0x003B426B
+	public bool ONIOKPGFMFH()
+	{
+		return this.friendsMessagePopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x06008562 RID: 34146 RVA: 0x003B60E5 File Offset: 0x003B42E5
+	public bool IONLNDIJBAA()
+	{
+		return this.friendsLetterPopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x06008563 RID: 34147 RVA: 0x00003E52 File Offset: 0x00002052
+	private void JOOBEBIBDGO()
+	{
+	}
+
+	// Token: 0x06008564 RID: 34148 RVA: 0x003B60F8 File Offset: 0x003B42F8
+	public void DFMBCNPLJCD()
+	{
+		this.friendsPopup.gameObject.SetActive(false);
+		this.friendsMessagePopup.gameObject.SetActive(false);
+		this.friendsLetterPopup.gameObject.SetActive(false);
+		this.popupCardOptions.gameObject.SetActive(false);
+	}
+
+	// Token: 0x06008565 RID: 34149 RVA: 0x003B6149 File Offset: 0x003B4349
+	public void CDKIFLJOHHC(PMEPALPCEAF FOKFGMIEEDB, string BBDKMDOBBAD, string DKNNMLIDPHH, string EMGMCANANEJ)
+	{
+		this.friendsMessagePopup.DNLMONGDEJN(CCOJBMMKNAP.PKEINLPIAEH().BDGPNPNIAPA("$ADDMAPPINGINFO"), BBDKMDOBBAD, DKNNMLIDPHH, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, EMGMCANANEJ);
+	}
+
+	// Token: 0x06008566 RID: 34150 RVA: 0x003B604D File Offset: 0x003B424D
+	public void OPLODFBEBKK(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x06008567 RID: 34151 RVA: 0x003B606B File Offset: 0x003B426B
+	public bool MCGFEMCENNC()
+	{
+		return this.friendsMessagePopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x06008568 RID: 34152 RVA: 0x003B6174 File Offset: 0x003B4374
+	public void HBPDHAOMHGI(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.Show(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x06008569 RID: 34153 RVA: 0x003B604D File Offset: 0x003B424D
+	public void OPFBIFMIJLO(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x0600856A RID: 34154 RVA: 0x003B6063 File Offset: 0x003B4263
+	private void NGPCCGAKIHA()
+	{
+		this.Reset();
+	}
+
+	// Token: 0x0600856B RID: 34155 RVA: 0x003B6192 File Offset: 0x003B4392
+	public void GCBDLCIGMHF(PMEPALPCEAF FOKFGMIEEDB, string BBDKMDOBBAD, string DKNNMLIDPHH, string EMGMCANANEJ)
+	{
+		this.friendsMessagePopup.ShowMessageReceived(CCOJBMMKNAP.BFHKGNBFHCH().FCOCLEHKLDJ("acli22"), BBDKMDOBBAD, DKNNMLIDPHH, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, EMGMCANANEJ);
+	}
+
+	// Token: 0x0600856C RID: 34156 RVA: 0x003B606B File Offset: 0x003B426B
+	public bool PMAEHMIKBNH()
+	{
+		return this.friendsMessagePopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x0600856D RID: 34157 RVA: 0x003B60D6 File Offset: 0x003B42D6
+	public void HLBDKMBALGE(bool DHLAMFCAHPJ, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterAppearAnimation(DHLAMFCAHPJ, EMGMCANANEJ);
+	}
+
+	// Token: 0x0600856E RID: 34158 RVA: 0x003B61BD File Offset: 0x003B43BD
+	public static bool EMNAKEANPHE()
+	{
+		return !LobbyUserInterface.IKLAPGJDMNA && false;
+	}
+
+	// Token: 0x0600856F RID: 34159 RVA: 0x003B60BD File Offset: 0x003B42BD
+	private void EPHNKBBGCAK()
+	{
+		this.PONLILEKDFJ();
+	}
+
+	// Token: 0x06008570 RID: 34160 RVA: 0x003B607D File Offset: 0x003B427D
+	public void BBGCLHPNPBA(string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.NNMNCAFENAP();
+	}
+
+	// Token: 0x06008571 RID: 34161 RVA: 0x003B6174 File Offset: 0x003B4374
+	public void KDDADIMFFCG(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.Show(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x06008572 RID: 34162 RVA: 0x00003E52 File Offset: 0x00002052
+	private void BDMGHFPMOAG()
+	{
+	}
+
+	// Token: 0x06008573 RID: 34163 RVA: 0x003B61D0 File Offset: 0x003B43D0
+	public void ShowFriendsGiftReceivedPopup(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.EHBBFMCILPC.DNILNCLIHAP("socialpremgiftcollect");
+		this.friendsMessagePopup.ShowGiftReceived(CCOJBMMKNAP.EHBBFMCILPC.DNILNCLIHAP("socialpremgiftcollecttitle"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "OnFriendsGiftPopulCollectPart1");
+	}
+
+	// Token: 0x06008574 RID: 34164 RVA: 0x003B6218 File Offset: 0x003B4418
+	public static LobbyUserInterface FILDBDMENPG()
+	{
+		if (!LobbyUserInterface.IKLAPGJDMNA)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = (UnityEngine.Object.FindObjectOfType(typeof(LobbyUserInterface)) as LobbyUserInterface);
+			if (!LobbyUserInterface.IKLAPGJDMNA)
+			{
+				DPGJIJGOCIC.ANOPFDLPKGC("lsenvattempt");
+			}
+		}
+		return LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x06008575 RID: 34165 RVA: 0x003B60A8 File Offset: 0x003B42A8
+	private void OnDestroy()
+	{
+		if (LobbyUserInterface.IKLAPGJDMNA == this)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = null;
+		}
+	}
+
+	// Token: 0x06008576 RID: 34166 RVA: 0x003B607D File Offset: 0x003B427D
+	public void PHNJNJCOHCH(string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.NNMNCAFENAP();
+	}
+
+	// Token: 0x06008577 RID: 34167 RVA: 0x003B606B File Offset: 0x003B426B
+	public bool DBNAJGHBPAH()
+	{
+		return this.friendsMessagePopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x06008578 RID: 34168 RVA: 0x003B604D File Offset: 0x003B424D
+	public void HAGHLIPFBCM(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x06008579 RID: 34169 RVA: 0x003B6063 File Offset: 0x003B4263
+	private void HJMKOELKODM()
+	{
+		this.Reset();
+	}
+
+	// Token: 0x0600857A RID: 34170 RVA: 0x003B6268 File Offset: 0x003B4468
+	public void OJBBLGMCGJH(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.BAJGNJCIFBL(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x0600857B RID: 34171 RVA: 0x003B629C File Offset: 0x003B449C
+	public void OJAFMEDAGBN(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.MKOGEEDJDOL(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x0600857C RID: 34172 RVA: 0x003B62CF File Offset: 0x003B44CF
+	public void KDIHGKCOFPM(string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterDisappearAnimation();
+	}
+
+	// Token: 0x0600857D RID: 34173 RVA: 0x003B62DC File Offset: 0x003B44DC
+	public void CIFCPLCLLAC(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.BFHKGNBFHCH().DNILNCLIHAP("ok");
+		if (FOKFGMIEEDB != null)
+		{
+			bbdkmdobbad = CCOJBMMKNAP.EHBBFMCILPC.BGELFMIOBCL("").Replace("OnApplicationRestart", FOKFGMIEEDB.IFEEIAPMIML.NADJNIHEELP.ToString() + KBOJLHAJPCP.BGMADCKNKAD);
+		}
+		this.friendsMessagePopup.CGICNNFAJAG(CCOJBMMKNAP.LMCCLMFGEBD().PPALCPINPLK("repsuid"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "");
+	}
+
+	// Token: 0x0600857E RID: 34174 RVA: 0x003B60E5 File Offset: 0x003B42E5
+	public bool COPLBCLPGAO()
+	{
+		return this.friendsLetterPopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x0600857F RID: 34175 RVA: 0x003B635C File Offset: 0x003B455C
+	public void EDGKECGMKLN(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.MPCBJEIMACA().BDGPNPNIAPA("_AlphaTex");
+		this.friendsMessagePopup.KFDGHDABAHN(CCOJBMMKNAP.PEBMGCKFNAO().GLEFEKBDHNK("YYY"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "   ");
+	}
+
+	// Token: 0x06008580 RID: 34176 RVA: 0x003B60E5 File Offset: 0x003B42E5
+	public bool DOBMBDMHCKG()
+	{
+		return this.friendsLetterPopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x06008581 RID: 34177 RVA: 0x003B60E5 File Offset: 0x003B42E5
+	public bool NJNIHCEFACE()
+	{
+		return this.friendsLetterPopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x06008582 RID: 34178 RVA: 0x003B63A4 File Offset: 0x003B45A4
+	public void FNONLGCGALA(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.ILACPHFEDEP().DNILNCLIHAP("");
+		this.friendsMessagePopup.OHDGAEEGAMF(CCOJBMMKNAP.NIOJNOFGIJO().BGELFMIOBCL("socialremovetradeable"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "[LoadingEnv] reusing loaded dependency ");
+	}
+
+	// Token: 0x06008583 RID: 34179 RVA: 0x00003E52 File Offset: 0x00002052
+	private void NFEJEDEPGGG()
+	{
+	}
+
+	// Token: 0x06008584 RID: 34180 RVA: 0x003B60A8 File Offset: 0x003B42A8
+	private void HBDCHDHODOM()
+	{
+		if (LobbyUserInterface.IKLAPGJDMNA == this)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = null;
+		}
+	}
+
+	// Token: 0x06008585 RID: 34181 RVA: 0x003B62CF File Offset: 0x003B44CF
+	public void ShowLetterDisappearAnimation(string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterDisappearAnimation();
+	}
+
+	// Token: 0x06008586 RID: 34182 RVA: 0x003B63EC File Offset: 0x003B45EC
+	public void MNDBDFKFABF(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.BLAHIILHNPC(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x06008587 RID: 34183 RVA: 0x003B6420 File Offset: 0x003B4620
+	public void MLLLJCJBKPO(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.FEEDGKCJBLE().GGPHHLGPMPA("CHATDISCARD");
+		if (FOKFGMIEEDB != null)
+		{
+			bbdkmdobbad = CCOJBMMKNAP.DLGLFACMHPG().JCDFHKDNEDH("lobby").Replace("OnAccountSave", FOKFGMIEEDB.IFEEIAPMIML.NADJNIHEELP.ToString() + KBOJLHAJPCP.BGMADCKNKAD);
+		}
+		this.friendsMessagePopup.ShowCurrencyReceived(CCOJBMMKNAP.INKJIBDDMLL().HHLECNIFHCO("OnSaveSlotsItemClose"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "OnPopupStoryRestartManagerRestartStory4");
+	}
+
+	// Token: 0x06008588 RID: 34184 RVA: 0x003B649F File Offset: 0x003B469F
+	private void FNDDKLJKFEK()
+	{
+		this.DFMBCNPLJCD();
+	}
+
+	// Token: 0x1700027C RID: 636
+	// (get) Token: 0x06008589 RID: 34185 RVA: 0x003B64A8 File Offset: 0x003B46A8
+	public static LobbyUserInterface EHBBFMCILPC
+	{
+		get
+		{
+			if (!LobbyUserInterface.IKLAPGJDMNA)
+			{
+				LobbyUserInterface.IKLAPGJDMNA = (UnityEngine.Object.FindObjectOfType(typeof(LobbyUserInterface)) as LobbyUserInterface);
+				if (!LobbyUserInterface.IKLAPGJDMNA)
+				{
+					DPGJIJGOCIC.ANOPFDLPKGC("There needs to be one active LobbyUserInterface script on a GameObject in your scene.");
+				}
+			}
+			return LobbyUserInterface.IKLAPGJDMNA;
+		}
+	}
+
+	// Token: 0x0600858A RID: 34186 RVA: 0x003B64F5 File Offset: 0x003B46F5
+	public static bool KFKMLHDEPFK()
+	{
+		return LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x0600858B RID: 34187 RVA: 0x003B60A8 File Offset: 0x003B42A8
+	private void LDPOIIIAIOA()
+	{
+		if (LobbyUserInterface.IKLAPGJDMNA == this)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = null;
+		}
+	}
+
+	// Token: 0x0600858C RID: 34188 RVA: 0x003B6508 File Offset: 0x003B4708
+	public void HGNDCKNPKEP(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.GANECJLKGFD(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x0600858D RID: 34189 RVA: 0x003B6174 File Offset: 0x003B4374
+	public void LAFMGAJMOJB(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.Show(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x0600858E RID: 34190 RVA: 0x003B64F5 File Offset: 0x003B46F5
+	public static bool HBHOHKKCPEE()
+	{
+		return LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x0600858F RID: 34191 RVA: 0x003B6174 File Offset: 0x003B4374
+	public void ShowPopupCardOptions(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.Show(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x06008590 RID: 34192 RVA: 0x003B60A8 File Offset: 0x003B42A8
+	private void DCODCLAGEOO()
+	{
+		if (LobbyUserInterface.IKLAPGJDMNA == this)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = null;
+		}
+	}
+
+	// Token: 0x06008591 RID: 34193 RVA: 0x003B653B File Offset: 0x003B473B
+	public void ShowFriendsMessageReceivedPopup(PMEPALPCEAF FOKFGMIEEDB, string BBDKMDOBBAD, string DKNNMLIDPHH, string EMGMCANANEJ)
+	{
+		this.friendsMessagePopup.ShowMessageReceived(CCOJBMMKNAP.EHBBFMCILPC.DNILNCLIHAP("socialsimplegiftmessagetitle"), BBDKMDOBBAD, DKNNMLIDPHH, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, EMGMCANANEJ);
+	}
+
+	// Token: 0x06008592 RID: 34194 RVA: 0x003B606B File Offset: 0x003B426B
+	public bool FriendsCurrencyPopupActive()
+	{
+		return this.friendsMessagePopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x06008593 RID: 34195 RVA: 0x003B6566 File Offset: 0x003B4766
+	public PopupCardOptions EEMLNKIACGN()
+	{
+		return this.popupCardOptions;
+	}
+
+	// Token: 0x06008594 RID: 34196 RVA: 0x003B656E File Offset: 0x003B476E
+	public void DDOLOECGFMG(PMEPALPCEAF FOKFGMIEEDB, string BBDKMDOBBAD, string DKNNMLIDPHH, string EMGMCANANEJ)
+	{
+		this.friendsMessagePopup.PDNHDFOHJPJ(CCOJBMMKNAP.EAIAHCBAIEJ().IPEIONBNIPH("+"), BBDKMDOBBAD, DKNNMLIDPHH, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, EMGMCANANEJ);
+	}
+
+	// Token: 0x06008595 RID: 34197 RVA: 0x00003E52 File Offset: 0x00002052
+	private void KGMBFKBNDPJ()
+	{
+	}
+
+	// Token: 0x06008596 RID: 34198 RVA: 0x003B659C File Offset: 0x003B479C
+	public void PHKEILKOOPF(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.Show(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x06008597 RID: 34199 RVA: 0x003B60A8 File Offset: 0x003B42A8
+	private void BNJLIDFJOGD()
+	{
+		if (LobbyUserInterface.IKLAPGJDMNA == this)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = null;
+		}
+	}
+
+	// Token: 0x06008598 RID: 34200 RVA: 0x003B65CF File Offset: 0x003B47CF
+	public void GKIHBNNCJGG(string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.JPGFBBKJMIA();
+	}
+
+	// Token: 0x06008599 RID: 34201 RVA: 0x003B65DC File Offset: 0x003B47DC
+	public void JALEMPFLLPH(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.KLAKLFCOMJC().GGPHHLGPMPA(" resolved");
+		this.friendsMessagePopup.KFDGHDABAHN(CCOJBMMKNAP.PMABBOJDELF().BGELFMIOBCL("frrjctpid"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "Critical error, could not load asset bundle:");
+	}
+
+	// Token: 0x0600859A RID: 34202 RVA: 0x003B60A8 File Offset: 0x003B42A8
+	private void CEJFHEBCHGK()
+	{
+		if (LobbyUserInterface.IKLAPGJDMNA == this)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = null;
+		}
+	}
+
+	// Token: 0x0600859B RID: 34203 RVA: 0x003B6566 File Offset: 0x003B4766
+	public PopupCardOptions KNHBOAFEPLI()
+	{
+		return this.popupCardOptions;
+	}
+
+	// Token: 0x0600859C RID: 34204 RVA: 0x003B6624 File Offset: 0x003B4824
+	public void INOMHOOECJG(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.MKOGEEDJDOL(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x0600859D RID: 34205 RVA: 0x003B6174 File Offset: 0x003B4374
+	public void DDFOLGBJCII(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.Show(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x0600859E RID: 34206 RVA: 0x003B6658 File Offset: 0x003B4858
+	public static LobbyUserInterface OEPENBHJAHO()
+	{
+		if (!LobbyUserInterface.IKLAPGJDMNA)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = (UnityEngine.Object.FindObjectOfType(typeof(LobbyUserInterface)) as LobbyUserInterface);
+			if (!LobbyUserInterface.IKLAPGJDMNA)
+			{
+				DPGJIJGOCIC.ANOPFDLPKGC("23819D");
+			}
+		}
+		return LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x0600859F RID: 34207 RVA: 0x003B60E5 File Offset: 0x003B42E5
+	public bool FOJAIPEPFEC()
+	{
+		return this.friendsLetterPopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x060085A0 RID: 34208 RVA: 0x003B60E5 File Offset: 0x003B42E5
+	public bool CPOFFHENJIE()
+	{
+		return this.friendsLetterPopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x060085A1 RID: 34209 RVA: 0x003B608A File Offset: 0x003B428A
+	public void IGFGCCEIEPI(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.PAHHJLODBKO(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x060085A2 RID: 34210 RVA: 0x003B6063 File Offset: 0x003B4263
+	private void Awake()
+	{
+		this.Reset();
+	}
+
+	// Token: 0x060085A3 RID: 34211 RVA: 0x003B60D6 File Offset: 0x003B42D6
+	public void ShowLetterAppearAnimation(bool DHLAMFCAHPJ, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterAppearAnimation(DHLAMFCAHPJ, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085A4 RID: 34212 RVA: 0x003B66A8 File Offset: 0x003B48A8
+	public void LMKMMFLCDCE(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.AEELGGPEJCC().HIPJILDCHJC(")");
+		this.friendsMessagePopup.KFDGHDABAHN(CCOJBMMKNAP.KLAKLFCOMJC().HHLECNIFHCO("sparkles"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, ", ");
+	}
+
+	// Token: 0x060085A5 RID: 34213 RVA: 0x003B6566 File Offset: 0x003B4766
+	public PopupCardOptions EMBHDJBPOKL()
+	{
+		return this.popupCardOptions;
+	}
+
+	// Token: 0x060085A6 RID: 34214 RVA: 0x003B66F0 File Offset: 0x003B48F0
+	public void HFNCMOHKFJD(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.BIAEAOMHBMM().IKMNGFIDCLM("sksku");
+		if (FOKFGMIEEDB != null)
+		{
+			bbdkmdobbad = CCOJBMMKNAP.KFAABHHGOPO().GLEFEKBDHNK(" is OUTSIDE the anthology's published story family - look not offered: ").Replace("useMessageV2Text", FOKFGMIEEDB.IFEEIAPMIML.NADJNIHEELP.ToString() + KBOJLHAJPCP.BGMADCKNKAD);
+		}
+		this.friendsMessagePopup.AMOCFCFBFEL(CCOJBMMKNAP.BBGECIKOICE().PKNHKGMNCIP("OnApplicationFocusBasicSyncSuccess"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "BackendOperationsManager.RequestPremiumChoice, exception while initializing RSACryptoServiceProvider:");
+	}
+
+	// Token: 0x060085A7 RID: 34215 RVA: 0x003B604D File Offset: 0x003B424D
+	public void ShowLetterReceivedAnimation(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085A8 RID: 34216 RVA: 0x003B60E5 File Offset: 0x003B42E5
+	public bool FriendsLetterPopupActive()
+	{
+		return this.friendsLetterPopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x060085A9 RID: 34217 RVA: 0x003B6770 File Offset: 0x003B4970
+	public void Reset()
+	{
+		this.friendsPopup.gameObject.SetActive(false);
+		this.friendsMessagePopup.gameObject.SetActive(false);
+		this.friendsLetterPopup.gameObject.SetActive(false);
+		this.popupCardOptions.gameObject.SetActive(false);
+	}
+
+	// Token: 0x060085AA RID: 34218 RVA: 0x003B6566 File Offset: 0x003B4766
+	public PopupCardOptions MKJHHOJAMHN()
+	{
+		return this.popupCardOptions;
+	}
+
+	// Token: 0x060085AB RID: 34219 RVA: 0x003B604D File Offset: 0x003B424D
+	public void FPCIHAFLFFB(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085AC RID: 34220 RVA: 0x003B606B File Offset: 0x003B426B
+	public bool DGICAEALIGF()
+	{
+		return this.friendsMessagePopup.gameObject.activeSelf;
+	}
+
+	// Token: 0x060085AD RID: 34221 RVA: 0x003B67C4 File Offset: 0x003B49C4
+	public void ODKBEPIGCMG(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.NIOJNOFGIJO().JCDFHKDNEDH("");
+		this.friendsMessagePopup.OHDGAEEGAMF(CCOJBMMKNAP.DBFFFOMCLKM().HHLECNIFHCO("Authorization"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "ZZZ");
+	}
+
+	// Token: 0x060085AE RID: 34222 RVA: 0x003B680C File Offset: 0x003B4A0C
+	public void EJMMAJMKCPH(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.JMDJPKKOHNI().HHLECNIFHCO("OnAchievementSyncSuccess");
+		if (FOKFGMIEEDB != null)
+		{
+			bbdkmdobbad = CCOJBMMKNAP.ILACPHFEDEP().HPOAGPJFHPM("htme").Replace("socialsimplegiftcollect", FOKFGMIEEDB.IFEEIAPMIML.NADJNIHEELP.ToString() + KBOJLHAJPCP.BGMADCKNKAD);
+		}
+		this.friendsMessagePopup.AMOCFCFBFEL(CCOJBMMKNAP.HEDIEIICOOG().OBDCPLLLGBB("\n<alpha=#C0>..."), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "ok");
+	}
+
+	// Token: 0x060085AF RID: 34223 RVA: 0x003B688C File Offset: 0x003B4A8C
+	public void EPACMIGGKID(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.BAJGNJCIFBL(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x060085B0 RID: 34224 RVA: 0x003B68C0 File Offset: 0x003B4AC0
+	public void MAOCLKOBEDK(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.MKOGEEDJDOL(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x060085B1 RID: 34225 RVA: 0x003B6566 File Offset: 0x003B4766
+	public PopupCardOptions GetPopupCardOptions()
+	{
+		return this.popupCardOptions;
+	}
+
+	// Token: 0x060085B2 RID: 34226 RVA: 0x003B60C5 File Offset: 0x003B42C5
+	public static bool ONLAPOPJEOD()
+	{
+		return !LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x060085B3 RID: 34227 RVA: 0x003B68F4 File Offset: 0x003B4AF4
+	public void HPBLJMDJPOA()
+	{
+		this.friendsPopup.gameObject.SetActive(true);
+		this.friendsMessagePopup.gameObject.SetActive(false);
+		this.friendsLetterPopup.gameObject.SetActive(false);
+		this.popupCardOptions.gameObject.SetActive(false);
+	}
+
+	// Token: 0x060085B4 RID: 34228 RVA: 0x003B61BD File Offset: 0x003B43BD
+	public static bool KHPENGLFECE()
+	{
+		return !LobbyUserInterface.IKLAPGJDMNA && false;
+	}
+
+	// Token: 0x060085B5 RID: 34229 RVA: 0x003B6945 File Offset: 0x003B4B45
+	public static bool PPHGCJGPECL()
+	{
+		return LobbyUserInterface.IKLAPGJDMNA || true;
+	}
+
+	// Token: 0x060085B6 RID: 34230 RVA: 0x003B6956 File Offset: 0x003B4B56
+	public void JODLOKEALJN(PMEPALPCEAF FOKFGMIEEDB, string BBDKMDOBBAD, string DKNNMLIDPHH, string EMGMCANANEJ)
+	{
+		this.friendsMessagePopup.PDNHDFOHJPJ(CCOJBMMKNAP.ILACPHFEDEP().GLEFEKBDHNK("OnPopupProfileUIDInputCancel"), BBDKMDOBBAD, DKNNMLIDPHH, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085B7 RID: 34231 RVA: 0x003B6945 File Offset: 0x003B4B45
+	public static bool BANNDMKABPN()
+	{
+		return LobbyUserInterface.IKLAPGJDMNA || true;
+	}
+
+	// Token: 0x060085B8 RID: 34232 RVA: 0x003B60BD File Offset: 0x003B42BD
+	private void JIMHOEENAFI()
+	{
+		this.PONLILEKDFJ();
+	}
+
+	// Token: 0x060085B9 RID: 34233 RVA: 0x003B6174 File Offset: 0x003B4374
+	public void IIFDOEOBPCD(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.Show(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x060085BA RID: 34234 RVA: 0x00003E52 File Offset: 0x00002052
+	private void BAKDBLFFMFD()
+	{
+	}
+
+	// Token: 0x060085BB RID: 34235 RVA: 0x003B61BD File Offset: 0x003B43BD
+	public static bool PIKKGEAKNNO()
+	{
+		return !LobbyUserInterface.IKLAPGJDMNA && false;
+	}
+
+	// Token: 0x060085BC RID: 34236 RVA: 0x003B6981 File Offset: 0x003B4B81
+	public void AHPPANHBBFL(PMEPALPCEAF FOKFGMIEEDB, string BBDKMDOBBAD, string DKNNMLIDPHH, string EMGMCANANEJ)
+	{
+		this.friendsMessagePopup.GICIILJFMEI(CCOJBMMKNAP.JMNIGPHCAEJ().IPEIONBNIPH("PurchaseManagerSteam.SetState(): Not initialized."), BBDKMDOBBAD, DKNNMLIDPHH, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085BD RID: 34237 RVA: 0x003B64F5 File Offset: 0x003B46F5
+	public static bool IsInitialized()
+	{
+		return LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x060085BE RID: 34238 RVA: 0x003B69AC File Offset: 0x003B4BAC
+	public void CEMPKIBHJHJ(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.MKOGEEDJDOL(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x060085BF RID: 34239 RVA: 0x003B69E0 File Offset: 0x003B4BE0
+	public void CMHHNBOLNGG(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.AEELGGPEJCC().JHNELLJFBGC("socialjointitle");
+		this.friendsMessagePopup.OHDGAEEGAMF(CCOJBMMKNAP.OEPENBHJAHO().BDGPNPNIAPA("/"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "OnLoadingThemeSelectorFolderInitialized");
+	}
+
+	// Token: 0x060085C0 RID: 34240 RVA: 0x003B604D File Offset: 0x003B424D
+	public void NACMEPKOIDL(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085C1 RID: 34241 RVA: 0x003B6A28 File Offset: 0x003B4C28
+	public void GCBENMGKCHC(PMEPALPCEAF FOKFGMIEEDB, string BBDKMDOBBAD, string DKNNMLIDPHH, string EMGMCANANEJ)
+	{
+		this.friendsMessagePopup.DNLMONGDEJN(CCOJBMMKNAP.OBOOKJPGBJN().JLBEIFLLBLO("LoveInterestsLoungesHub - "), BBDKMDOBBAD, DKNNMLIDPHH, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085C2 RID: 34242 RVA: 0x003B6A54 File Offset: 0x003B4C54
+	public void ShowFriendsCurrencyReceivedPopup(PMEPALPCEAF FOKFGMIEEDB)
+	{
+		string bbdkmdobbad = CCOJBMMKNAP.EHBBFMCILPC.DNILNCLIHAP("collect");
+		if (FOKFGMIEEDB != null)
+		{
+			bbdkmdobbad = CCOJBMMKNAP.EHBBFMCILPC.DNILNCLIHAP("socialsimplegiftcollect").Replace("XXX", FOKFGMIEEDB.IFEEIAPMIML.NADJNIHEELP.ToString() + KBOJLHAJPCP.BGMADCKNKAD);
+		}
+		this.friendsMessagePopup.ShowCurrencyReceived(CCOJBMMKNAP.EHBBFMCILPC.DNILNCLIHAP("socialsimplegiftcollecttitle"), bbdkmdobbad, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, "OnFriendsCurrencyPopupCollect");
+	}
+
+	// Token: 0x060085C3 RID: 34243 RVA: 0x003B6AD4 File Offset: 0x003B4CD4
+	public void AFGPBHFBGEC(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.GANECJLKGFD(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x060085C4 RID: 34244 RVA: 0x003B6B08 File Offset: 0x003B4D08
+	public static LobbyUserInterface CEGAOMEEFBE()
+	{
+		if (!LobbyUserInterface.IKLAPGJDMNA)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = (UnityEngine.Object.FindObjectOfType(typeof(LobbyUserInterface)) as LobbyUserInterface);
+			if (!LobbyUserInterface.IKLAPGJDMNA)
+			{
+				DPGJIJGOCIC.ANOPFDLPKGC("PlayerCharacterManager.Update() - exception raised:");
+			}
+		}
+		return LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x060085C5 RID: 34245 RVA: 0x003B6B55 File Offset: 0x003B4D55
+	private void GCDAAPBFLJK()
+	{
+		this.HPBLJMDJPOA();
+	}
+
+	// Token: 0x060085C6 RID: 34246 RVA: 0x003B604D File Offset: 0x003B424D
+	public void JBFCJOBMMKG(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085C7 RID: 34247 RVA: 0x003B6B5D File Offset: 0x003B4D5D
+	public void GFLHEHEIDDD(bool DHLAMFCAHPJ, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.NCCDIMGKFGA(DHLAMFCAHPJ, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085C8 RID: 34248 RVA: 0x00003E52 File Offset: 0x00002052
+	private void AOIJOKHACJL()
+	{
+	}
+
+	// Token: 0x060085CA RID: 34250 RVA: 0x003B608A File Offset: 0x003B428A
+	public void JOAFDBJGKAE(CLGFGOHBCGJ GEIFEHFDNIO, PMEPALPCEAF IPOIHLJGCEA, HKPBEDBPHNJ NCBJPHKMPEJ, string FINOAAOKIIC, GDOKLFCLLIK CBHJFDJNECG)
+	{
+		this.popupCardOptions.PAHHJLODBKO(GEIFEHFDNIO, AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, IPOIHLJGCEA, NCBJPHKMPEJ, FINOAAOKIIC, CBHJFDJNECG);
+	}
+
+	// Token: 0x060085CB RID: 34251 RVA: 0x003B604D File Offset: 0x003B424D
+	public void LDPHFEHEHDM(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085CC RID: 34252 RVA: 0x003B6B6C File Offset: 0x003B4D6C
+	public void PONLILEKDFJ()
+	{
+		this.friendsPopup.gameObject.SetActive(false);
+		this.friendsMessagePopup.gameObject.SetActive(false);
+		this.friendsLetterPopup.gameObject.SetActive(true);
+		this.popupCardOptions.gameObject.SetActive(false);
+	}
+
+	// Token: 0x060085CD RID: 34253 RVA: 0x003B6BC0 File Offset: 0x003B4DC0
+	public void FHGABPLOBJC(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.GANECJLKGFD(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x060085CE RID: 34254 RVA: 0x003B6BF4 File Offset: 0x003B4DF4
+	public void ShowFriendsPopup(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.Show(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x060085CF RID: 34255 RVA: 0x003B607D File Offset: 0x003B427D
+	public void IGMDJMIBDMK(string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.NNMNCAFENAP();
+	}
+
+	// Token: 0x060085D0 RID: 34256 RVA: 0x00003E52 File Offset: 0x00002052
+	private void CPDNJAKBOBC()
+	{
+	}
+
+	// Token: 0x060085D1 RID: 34257 RVA: 0x003B604D File Offset: 0x003B424D
+	public void IMPMKAMICAI(bool DHLAMFCAHPJ, string DKNNMLIDPHH, string BBDKMDOBBAD, PMEPALPCEAF NAALFKKPAPG, PMEPALPCEAF IPOIHLJGCEA, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterReceivedAnimation(DHLAMFCAHPJ, DKNNMLIDPHH, BBDKMDOBBAD, NAALFKKPAPG, IPOIHLJGCEA, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085D2 RID: 34258 RVA: 0x003B60D6 File Offset: 0x003B42D6
+	public void GACNDDIEAIP(bool DHLAMFCAHPJ, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.ShowLetterAppearAnimation(DHLAMFCAHPJ, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085D3 RID: 34259 RVA: 0x003B60BD File Offset: 0x003B42BD
+	private void BNMJABILOKK()
+	{
+		this.PONLILEKDFJ();
+	}
+
+	// Token: 0x060085D4 RID: 34260 RVA: 0x003B60BD File Offset: 0x003B42BD
+	private void CGLFKMJKOLJ()
+	{
+		this.PONLILEKDFJ();
+	}
+
+	// Token: 0x060085D5 RID: 34261 RVA: 0x003B6C28 File Offset: 0x003B4E28
+	public void OLOBPAKGBOA(PMEPALPCEAF FOKFGMIEEDB, bool DIBFIGPNMNJ, bool JEAIOIFAPFN, bool HBDPABFCEKB, bool JCGNCIEEOHC, bool OANLCFABEDE, bool IJBFMHJAJKL, bool IOIOBPAGLNB, bool PAAIKELNLBA, bool GJLOGOKHACO)
+	{
+		this.friendsPopup.PEABJAGOCIN(AKLFPGMDKLA.EHBBFMCILPC.OKGGLHOCENC, FOKFGMIEEDB, DIBFIGPNMNJ, JEAIOIFAPFN, HBDPABFCEKB, JCGNCIEEOHC, OANLCFABEDE, IJBFMHJAJKL, IOIOBPAGLNB, PAAIKELNLBA, GJLOGOKHACO);
+	}
+
+	// Token: 0x060085D6 RID: 34262 RVA: 0x003B64F5 File Offset: 0x003B46F5
+	public static bool JHJNGOAOPFA()
+	{
+		return LobbyUserInterface.IKLAPGJDMNA;
+	}
+
+	// Token: 0x060085D7 RID: 34263 RVA: 0x003B6B5D File Offset: 0x003B4D5D
+	public void GLGALICLEJM(bool DHLAMFCAHPJ, string EMGMCANANEJ)
+	{
+		this.friendsLetterPopup.NCCDIMGKFGA(DHLAMFCAHPJ, EMGMCANANEJ);
+	}
+
+	// Token: 0x060085D8 RID: 34264 RVA: 0x003B6566 File Offset: 0x003B4766
+	public PopupCardOptions FOKMDMBEDNN()
+	{
+		return this.popupCardOptions;
+	}
+
+	// Token: 0x060085D9 RID: 34265 RVA: 0x00003E52 File Offset: 0x00002052
+	private void Start()
+	{
+	}
+
+	// Token: 0x060085DA RID: 34266 RVA: 0x003B61BD File Offset: 0x003B43BD
+	public static bool FONGKJBAHHL()
+	{
+		return !LobbyUserInterface.IKLAPGJDMNA && false;
+	}
+
+	// Token: 0x060085DB RID: 34267 RVA: 0x003B60A8 File Offset: 0x003B42A8
+	private void PFEIKOLDANA()
+	{
+		if (LobbyUserInterface.IKLAPGJDMNA == this)
+		{
+			LobbyUserInterface.IKLAPGJDMNA = null;
+		}
+	}
+
+	// Token: 0x040025AE RID: 9646
+	private static LobbyUserInterface IKLAPGJDMNA;
+
+	// Token: 0x040025AF RID: 9647
+	public FriendsPopupManager friendsPopup;
+
+	// Token: 0x040025B0 RID: 9648
+	public FriendsMessagePopupManager friendsMessagePopup;
+
+	// Token: 0x040025B1 RID: 9649
+	public FriendsLetterPopupManager friendsLetterPopup;
+
+	// Token: 0x040025B2 RID: 9650
+	public PopupCardOptions popupCardOptions;
+}

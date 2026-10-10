@@ -1,0 +1,14 @@
+﻿using System;
+
+// Token: 0x02000130 RID: 304
+public class DCAIAAIOOEI
+{
+	// Token: 0x04000C6F RID: 3183
+	public KFIHMMIGPLO AKMCHCMCAFD;
+
+	// Token: 0x04000C70 RID: 3184
+	public DCAIAAIOOEI CPIBOCMALCF;
+
+	// Token: 0x04000C71 RID: 3185
+	public DCAIAAIOOEI BODDDMCCLNM;
+}
